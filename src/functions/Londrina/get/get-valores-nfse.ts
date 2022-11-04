@@ -1,4 +1,4 @@
-import { ValoresNfse } from "../../models/Valores";
+import { ValoresNfse } from "../../../models/Valores";
 
 async function getValoresNfse(json_object: object){
     type jsonKeys = keyof typeof json_object;

@@ -1,7 +1,7 @@
-import { DeclaracaoPrestacaoServico } from "../../models/DeclaracaoPrestacaoServico"
-import {Servico} from "../../models/Servico";
-import {Prestador, Tomador} from "../../models/PrestadorTomador"
-import { Rps } from "../../models/Rps";
+import { DeclaracaoPrestacaoServico } from "../../../models/DeclaracaoPrestacaoServico"
+import {Servico} from "../../../models/Servico";
+import {Prestador, Tomador} from "../../../models/PrestadorTomador"
+import { Rps } from "../../../models/Rps";
 
 async function getDeclaracao(json_object: object, servico: Servico, prestador: Prestador, tomador: Tomador){
     type jsonKeys = keyof typeof json_object;

@@ -1,4 +1,4 @@
-import { Cancelada } from "../../models/Cancelada"
+import { Cancelada } from "../../../models/Cancelada"
 
 async function getCancelada(json_object: object){
     type jsonKeys = keyof typeof json_object;

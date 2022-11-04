@@ -1,4 +1,4 @@
-import { Endereco } from '../../models/Endereco'
+import { Endereco } from '../../../models/Endereco'
 var fs = require("fs")
 
 

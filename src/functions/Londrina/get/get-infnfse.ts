@@ -1,8 +1,8 @@
-import { DeclaracaoPrestacaoServico } from "../../models/DeclaracaoPrestacaoServico";
-import { InfNfse } from "../../models/InfNfse";
-import { OrgaoGerador } from "../../models/OrgaoGerador";
-import { Prestador } from "../../models/PrestadorTomador";
-import { ValoresNfse } from "../../models/Valores";
+import { DeclaracaoPrestacaoServico } from "../../../models/DeclaracaoPrestacaoServico";
+import { InfNfse } from "../../../models/InfNfse";
+import { OrgaoGerador } from "../../../models/OrgaoGerador";
+import { Prestador } from "../../../models/PrestadorTomador";
+import { ValoresNfse } from "../../../models/Valores";
 
 async function getInfNfse(json_object: object, valores_nfse: ValoresNfse, prestador: Prestador, orgao_gerador: OrgaoGerador, declaracao_prestacao_servico: DeclaracaoPrestacaoServico){    
     type jsonKeys = keyof typeof json_object;

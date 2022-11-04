@@ -3,7 +3,7 @@ const { XMLBuilder } = require("fast-xml-parser");
 
 import {mudarDataTypes} from './mudar-dataTypes';
 import {parseXml} from './parse-xml';
-import {getPrestador} from './get/get-prestador';
+import {getPrestador} from './/get/get-prestador';
 import {getTomador} from './get/get-tomador';
 import {getServico} from './get/get-servico';
 import {getOrgaoGerador} from './get/get-orgao-gerador'
@@ -14,9 +14,9 @@ import { statusNfse } from './get/status-nfse';
 import { getCancelada } from './get/get-cancelada';
 
 
-import {Prestador, Tomador} from "../models/PrestadorTomador"
-import {Servico} from "../models/Servico"
-import { Xml_Nfse } from '../models/Xml-Nfse';
+import {Prestador, Tomador} from "../../models/PrestadorTomador"
+import {Servico} from "../../models/Servico"
+import { Xml_Nfse } from '../../models/Xml-Nfse';
 
 
 

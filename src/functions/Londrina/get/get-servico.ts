@@ -1,5 +1,5 @@
-import { ValoresServico } from '../../models/Valores';
-import { Servico } from '../../models/Servico';
+import { ValoresServico } from '../../../models/Valores';
+import { Servico } from '../../../models/Servico';
 
 async function getServico(json_object: object){
     try {

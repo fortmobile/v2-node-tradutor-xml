@@ -5,7 +5,7 @@ const rimraf = require('rimraf');
 import { zip } from 'zip-a-folder';
 const path = require('path')
 
-import { traduzirXML } from './functions/traduzir-xml'
+import { traduzirXML } from './functions/Londrina/traduzir-xml'
 
 interface MulterRequest extends Request {
     files: any;
@@ -17,7 +17,7 @@ app.use(express.json())
 app.use(fileUpload({}))
 
 
-app.post('/traduzir-xml', async(req: Request, res: Response, ) => {
+app.post('/traduzir-xml/londrina', async(req: Request, res: Response, ) => {
     var status_tradutor = [];
     const documentFile = (req as MulterRequest).files
 
@@ -70,7 +70,7 @@ app.post('/traduzir-xml', async(req: Request, res: Response, ) => {
 })
 
 
-app.get('/xml-files', async (req: Request, res: Response) => {
+app.get('/xml-files/londrina', async (req: Request, res: Response) => {
      try{
         const folder_name = req.query.xml_path;
 

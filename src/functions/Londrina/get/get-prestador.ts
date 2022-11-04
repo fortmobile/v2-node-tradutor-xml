@@ -1,5 +1,5 @@
-import { Prestador, IdentificacaoPrestadorTomador } from '../../models/PrestadorTomador'
-import { Endereco } from '../../models/Endereco'
+import { Prestador, IdentificacaoPrestadorTomador } from '../../../models/PrestadorTomador'
+import { Endereco } from '../../../models/Endereco'
 var fs = require("fs")
 
 

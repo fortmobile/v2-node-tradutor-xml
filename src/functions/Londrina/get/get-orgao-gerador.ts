@@ -1,4 +1,4 @@
-import { OrgaoGerador } from "../../models/OrgaoGerador";
+import { OrgaoGerador } from "../../../models/OrgaoGerador";
 
 async function getOrgaoGerador(json_object: object){
     type jsonKeys = keyof typeof json_object;
