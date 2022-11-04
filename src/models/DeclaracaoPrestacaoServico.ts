@@ -1,0 +1,56 @@
+import { Servico } from "./Servico";
+import { Prestador, Tomador } from "./PrestadorTomador"
+import {Rps} from "./Rps"
+
+class DeclaracaoPrestacaoServico{
+    InfDeclaracaoPrestacaoServico: {
+        Rps?: Rps
+        Competencia: string;
+        Servico: Servico;
+        Prestador: Prestador;
+        Tomador: Tomador;
+        RegimeEspecialTributacao: number;
+        OptanteSimplesNacional: number; 
+        IncentivoFiscal: number
+    }
+
+    constructor(Competencia: string, Servico: Servico, Prestador: Prestador, Tomador: Tomador, RegimeEspecialTributacao: number, optante_simples_nacional: boolean, incentivo_fiscal: boolean, Rps?: Rps){
+        this.InfDeclaracaoPrestacaoServico = {
+            Rps,
+            Competencia,
+            Servico,
+            Prestador,
+            Tomador,
+            RegimeEspecialTributacao,
+            OptanteSimplesNacional: 0,
+            IncentivoFiscal: 0
+        }
+
+        if(Rps){
+            this.InfDeclaracaoPrestacaoServico.Rps = Rps;
+        }
+
+        this.InfDeclaracaoPrestacaoServico.Competencia = Competencia;
+        this.InfDeclaracaoPrestacaoServico.Servico = Servico;
+        this.InfDeclaracaoPrestacaoServico.Prestador = Prestador;
+        this.InfDeclaracaoPrestacaoServico.Tomador = Tomador;
+        this.InfDeclaracaoPrestacaoServico.RegimeEspecialTributacao = RegimeEspecialTributacao;
+
+        if (optante_simples_nacional == true){
+            this.InfDeclaracaoPrestacaoServico.OptanteSimplesNacional = 1;
+        }
+        else{
+            this.InfDeclaracaoPrestacaoServico.OptanteSimplesNacional = 2;
+        }
+
+        if (incentivo_fiscal == true){
+            this.InfDeclaracaoPrestacaoServico.IncentivoFiscal = 1;
+        }
+        else{
+            this.InfDeclaracaoPrestacaoServico.IncentivoFiscal = 2;
+        }
+
+    }
+}
+
+export { DeclaracaoPrestacaoServico }
