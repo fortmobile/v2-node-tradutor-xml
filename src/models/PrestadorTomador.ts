@@ -3,14 +3,17 @@ import {Contato} from "./Contato"
 
 class Prestador{
     IdentificacaoPrestador: IdentificacaoPrestadorTomador;
-    RazaoSocial: string;
+    RazaoSocial?: string;
     Endereco: Endereco;
     NomeFantasia?: string;
     Contato?: Contato;
 
     constructor(IdentificacaoPrestador: IdentificacaoPrestadorTomador, razao_social: string, endereco: Endereco, nome_fantasia: string, contato?: Contato,){
         this.IdentificacaoPrestador = IdentificacaoPrestador;
-        this.RazaoSocial = razao_social;
+        
+        if (nome_fantasia !== ''){
+            this.RazaoSocial = razao_social;
+        }
 
         if (nome_fantasia !== ''){
             this.NomeFantasia = nome_fantasia;

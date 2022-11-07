@@ -4,6 +4,8 @@ const { XMLBuilder } = require("fast-xml-parser");
 import {parseXml} from './parse-xml';
 import { mudarDataTypes } from "./mudar-dataTypes";
 import { dividirXML } from './dividir-xml';
+import { getValoresNfse } from './get/get-valores-nfse';
+import { getPrestador } from './get/get-prestador';
 
 async function traduzirXmlCuritiba(xml_file_path: string, xml_file_name: string, folder_name: string){
     try {
@@ -14,7 +16,10 @@ async function traduzirXmlCuritiba(xml_file_path: string, xml_file_name: string,
 
 
         for(let i = 0; i < array_xmls.length; i++){
-            
+            var valores_nfse = await getValoresNfse(array_xmls[i]);
+
+            var prestador = await getPrestador(array_xmls[i]);
+            console.log(prestador)
         }
 
         //fs.writeFileSync('curitiba1.json', JSON.stringify(parsed_xml));

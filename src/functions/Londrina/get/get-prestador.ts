@@ -1,6 +1,5 @@
 import { Prestador, IdentificacaoPrestadorTomador } from '../../../models/PrestadorTomador'
 import { Endereco } from '../../../models/Endereco'
-var fs = require("fs")
 
 
 async function getPrestador(json_object: object){    

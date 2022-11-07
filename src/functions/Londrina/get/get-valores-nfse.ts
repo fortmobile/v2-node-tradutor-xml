@@ -25,9 +25,9 @@ async function getValoresNfse(json_object: object){
 
     var valor_liquido =  base_path['ValorLiquidoNfse' as jsonKeys2] as number;
 
-    var orgao_gerador = new ValoresNfse(base_calculo, aliquota2, valor_iss, valor_liquido);
+    var valores_nfse = new ValoresNfse(base_calculo, aliquota2, valor_iss, valor_liquido);
 
-    return orgao_gerador;
+    return valores_nfse;
 }
 
 export { getValoresNfse }
