@@ -5,7 +5,7 @@ const rimraf = require('rimraf');
 import { zip } from 'zip-a-folder';
 const path = require('path')
 
-import { traduzirXML } from './functions/Londrina/traduzir-xml'
+import { traduzirXmlLondrina } from './functions/Londrina/traduzir-xml'
 
 interface MulterRequest extends Request {
     files: any;
@@ -35,7 +35,7 @@ app.post('/traduzir-xml/londrina', async(req: Request, res: Response, ) => {
 
         await fs.writeFileSync(xml_file_path, xml_buffer);
 
-        var resposta = await traduzirXML(xml_file_path, xml_file_name, new_xml_folder);
+        var resposta = await traduzirXmlLondrina(xml_file_path, xml_file_name, new_xml_folder);
 
         var obj = {
             [xml_file_name]: resposta.message
@@ -54,7 +54,7 @@ app.post('/traduzir-xml/londrina', async(req: Request, res: Response, ) => {
 
             await fs.writeFileSync(xml_file_path, xml_buffer);
 
-            var resposta = await traduzirXML(xml_file_path, xml_file_name, new_xml_folder);
+            var resposta = await traduzirXmlLondrina(xml_file_path, xml_file_name, new_xml_folder);
             
             var obj = {
                 [xml_file_name]: resposta.message

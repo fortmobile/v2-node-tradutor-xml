@@ -20,7 +20,7 @@ import { Xml_Nfse } from '../../models/Xml-Nfse';
 
 
 
-async function traduzirXML(xml_file_path: string, xml_file_name: string, folder_name: string){
+async function traduzirXmlLondrina(xml_file_path: string, xml_file_name: string, folder_name: string){
     try{
         var new_xml = await mudarDataTypes(xml_file_path);
 
@@ -68,4 +68,4 @@ async function traduzirXML(xml_file_path: string, xml_file_name: string, folder_
     }
 }
 
-export {traduzirXML}
+export {traduzirXmlLondrina}
