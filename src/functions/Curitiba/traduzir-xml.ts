@@ -8,6 +8,12 @@ import { getValoresNfse } from './get/get-valores-nfse';
 import { getPrestador } from './get/get-prestador';
 import { getTomador } from './get/get-tomador';
 import { getServico } from './get/get-servico';
+import { getDeclaracao } from './get/get-declaracao';
+import { Servico } from '../../models/Servico';
+import { Prestador, Tomador } from '../../models/PrestadorTomador';
+import { getOrgaoGerador } from '../Londrina/get/get-orgao-gerador';
+import { getInfNfse } from './get/get-infnse';
+import { ValoresNfse } from '../../models/Valores';
 
 async function traduzirXmlCuritiba(xml_file_path: string, xml_file_name: string, folder_name: string){
     try {
@@ -18,16 +24,21 @@ async function traduzirXmlCuritiba(xml_file_path: string, xml_file_name: string,
 
 
         for(let i = 0; i < array_xmls.length; i++){
-            var valores_nfse = await getValoresNfse(array_xmls[i]);
+            var valores_nfse = await getValoresNfse(array_xmls[i]) as ValoresNfse;
 
-            var prestador = await getPrestador(array_xmls[i]);
-            var tomador = await getTomador(array_xmls[i]);
+            var prestador = await getPrestador(array_xmls[i]) as Prestador;
+            var tomador = await getTomador(array_xmls[i]) as Tomador;
 
-            var servico = await getServico(array_xmls[i]);
-            console.log(servico)
+            var servico = await getServico(array_xmls[i]) as Servico;
+            
+            var declaracao_prestacao = await getDeclaracao(array_xmls[i], servico, prestador, tomador);
+            
+            var orgao_gerador = await getOrgaoGerador(array_xmls[i]);
+
+            var infnse = await getInfNfse(array_xmls[i], valores_nfse, prestador, orgao_gerador, declaracao_prestacao);
+        
         }
 
-        //fs.writeFileSync('curitiba1.json', JSON.stringify(parsed_xml));
 
 
 
