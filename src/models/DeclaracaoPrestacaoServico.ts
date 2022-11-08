@@ -16,7 +16,6 @@ class DeclaracaoPrestacaoServico{
 
     constructor(Competencia: string, Servico: Servico, Prestador: Prestador, Tomador: Tomador, RegimeEspecialTributacao: number, optante_simples_nacional: boolean, incentivo_fiscal: boolean, Rps?: Rps){
         this.InfDeclaracaoPrestacaoServico = {
-            Rps,
             Competencia,
             Servico,
             Prestador,

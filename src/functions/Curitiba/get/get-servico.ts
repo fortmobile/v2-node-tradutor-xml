@@ -36,17 +36,39 @@ async function getServico(json_object: object){
 
         var cod_municipio = base_path['CodigoMunicipio'] as number;
 
-        var exigibilidade_iss = 1; 
+        var exi_iss = base_path['NaturezaOperacao' as jsonKeys2] as number;
+        if (exi_iss = 1){
+            var exigibilidade_iss = 1
+        }
+        else if (exi_iss = 2){
+            var exigibilidade_iss = 4
+        }
+        else if (exi_iss = 3){
+            var exigibilidade_iss = 3
+        }
+        else if (exi_iss = 4){
+            var exigibilidade_iss = 5
+        }
+        else if (exi_iss = 5){
+            var exigibilidade_iss = 6
+        }
+        else if (exi_iss = 6){
+            var exigibilidade_iss = 7
+        }
+        else{
+            var exigibilidade_iss = 0
+        }
 
         // ver se é do exterior
-        if (json_object['Nfse' as jsonKeys]['InfNfse' as jsonKeys]['NaturezaOperacao' as jsonKeys] == 1){
-            var municipio_incidencia = json_object['Nfse' as jsonKeys]['InfNfse' as jsonKeys]['PrestadorServico' as jsonKeys2]['Endereco' as jsonKeys2]['CodigoMunicipio' as jsonKeys2] as number;
-        }
-        else {
+        if (json_object['Nfse' as jsonKeys]['InfNfse' as jsonKeys]['NaturezaOperacao' as jsonKeys] == 2){
             var municipio_incidencia = json_object['Nfse' as jsonKeys]['InfNfse' as jsonKeys]['TomadorServico' as jsonKeys2]['Endereco' as jsonKeys2]['CodigoMunicipio' as jsonKeys2] as number;
             if (municipio_incidencia == 0){
                 municipio_incidencia = 9999999;
             }
+        }
+        else{
+            var municipio_incidencia = json_object['Nfse' as jsonKeys]['InfNfse' as jsonKeys]['PrestadorServico' as jsonKeys2]['Endereco' as jsonKeys2]['CodigoMunicipio' as jsonKeys2] as number;
+
         }
 
         var servico = new Servico(valores_servico, iss_retido2, item_lista_servico, discriminacao, cod_municipio, exigibilidade_iss, municipio_incidencia)

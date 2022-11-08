@@ -16,7 +16,7 @@ async function getInfNfse(json_object: object, valores_nfse: ValoresNfse, presta
     
     var infnfse = new InfNfse(numero, codigo_verificacao, data_emissao, valores_nfse, valor_credito, prestador, orgao_gerador, declaracao_prestacao_servico);
 
-    return infnfse;
+    return(infnfse);
 }
 
 export {getInfNfse}

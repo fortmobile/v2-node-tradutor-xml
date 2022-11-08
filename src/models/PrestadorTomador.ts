@@ -11,7 +11,7 @@ class Prestador{
     constructor(IdentificacaoPrestador: IdentificacaoPrestadorTomador, razao_social: string, endereco: Endereco, nome_fantasia: string, contato?: Contato,){
         this.IdentificacaoPrestador = IdentificacaoPrestador;
         
-        if (nome_fantasia !== ''){
+        if (razao_social !== ''){
             this.RazaoSocial = razao_social;
         }
 

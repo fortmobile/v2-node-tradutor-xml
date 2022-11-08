@@ -8,7 +8,7 @@ class Servico{
     CodigoTributacaoMunicipio: string;
     Discriminacao: string;
     CodigoMunicipio: number; 
-    ExigibilidadeISS: number; // VER EXIGIBILIDADE
+    ExigibilidadeISS?: number; 
     MunicipioIncidencia: number;
 
     constructor(valores: ValoresServico, iss_retido: boolean, item_lista_servico: string, discriminacao: string, cod_municipio: number,
@@ -49,7 +49,11 @@ class Servico{
 
         this.Discriminacao = discriminacao;
         this.CodigoMunicipio = cod_municipio;
-        this.ExigibilidadeISS = exigibilidade_iss;
+        
+        if (exigibilidade_iss != 0){
+            this.ExigibilidadeISS = exigibilidade_iss;
+        }
+        
         this.MunicipioIncidencia = municipio_incidencia;
     }
 }

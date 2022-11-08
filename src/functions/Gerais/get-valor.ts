@@ -1,5 +1,5 @@
 async function getValor(text: string, index: number){
-    var i  = index;
+    let i  = index;
     var valor = ''
 
     while(text[i] !== '>'){
