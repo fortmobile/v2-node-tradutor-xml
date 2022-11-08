@@ -29,7 +29,7 @@ async function traduzirXmlCuritiba(xml_file_path: string, xml_file_name: string,
             var valores_nfse = await getValoresNfse(array_xmls[i]) as ValoresNfse;
 
             var prestador = await getPrestador(array_xmls[i]) as Prestador;
-            console.log(prestador)
+            console.log
             var tomador = await getTomador(array_xmls[i]) as Tomador;
 
             var servico = await getServico(array_xmls[i]) as Servico;
@@ -52,7 +52,7 @@ async function traduzirXmlCuritiba(xml_file_path: string, xml_file_name: string,
             fs.writeFileSync(`${folder_name}/${prestador.IdentificacaoPrestador.CpfCnpj.Cnpj}-${infnfse.Numero}.xml`, xmlContent);
         }
 
-        await fs.unlinkSync(path.join(__dirname, new_xml));
+        //await fs.unlinkSync(path.join(__dirname, new_xml));
         return({message: 'xml convertido com sucesso'});
 
 
