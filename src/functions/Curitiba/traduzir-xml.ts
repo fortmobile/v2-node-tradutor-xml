@@ -7,6 +7,7 @@ import { dividirXML } from './dividir-xml';
 import { getValoresNfse } from './get/get-valores-nfse';
 import { getPrestador } from './get/get-prestador';
 import { getTomador } from './get/get-tomador';
+import { getServico } from './get/get-servico';
 
 async function traduzirXmlCuritiba(xml_file_path: string, xml_file_name: string, folder_name: string){
     try {
@@ -22,7 +23,8 @@ async function traduzirXmlCuritiba(xml_file_path: string, xml_file_name: string,
             var prestador = await getPrestador(array_xmls[i]);
             var tomador = await getTomador(array_xmls[i]);
 
-            console.log(tomador)
+            var servico = await getServico(array_xmls[i]);
+            console.log(servico)
         }
 
         //fs.writeFileSync('curitiba1.json', JSON.stringify(parsed_xml));
@@ -35,4 +37,4 @@ async function traduzirXmlCuritiba(xml_file_path: string, xml_file_name: string,
 }
 
 
-traduzirXmlCuritiba('../../../xmls/curitiba/curitiba1.xml', 'aaa', 'aaa')
+traduzirXmlCuritiba('../../../xmls/curitiba/curitiba2.xml', 'aaa', 'aaa')

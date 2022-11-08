@@ -25,7 +25,12 @@ class Endereco{
         }
         
         this.CodigoMunicipio = codigo_municipio;
-        this.Uf = uf;
+        
+        if (uf == undefined){
+
+        }else {
+            this.Uf = uf
+        }
         
         if(cep !== '' &&  cep !== undefined){
             this.Cep = cep;

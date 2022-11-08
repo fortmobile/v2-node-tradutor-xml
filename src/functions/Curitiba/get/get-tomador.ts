@@ -8,8 +8,15 @@ async function getTomador(json_object: object){
         var base_path = json_object['Nfse' as jsonKeys]['InfNfse' as jsonKeys]['TomadorServico' as jsonKeys];
         type jsonKeys2 = keyof typeof base_path;
 
-        var cnpj = base_path['IdentificacaoTomador' as jsonKeys2]['CpfCnpj' as jsonKeys2]['Cnpj' as jsonKeys2] as string;
-        cnpj = cnpj.replace('-', '').replace('.', '').replace('.', '').replace('/', '');
+        
+        if(base_path['IdentificacaoTomador' as jsonKeys2]['CpfCnpj' as jsonKeys2]['Cnpj' as jsonKeys2] as string){
+            var cnpj = base_path['IdentificacaoTomador' as jsonKeys2]['CpfCnpj' as jsonKeys2]['Cnpj' as jsonKeys2] as string;
+            cnpj = cnpj.replace('-', '').replace('.', '').replace('.', '').replace('/', '');
+        }else{
+            var cnpj = ''
+        }
+
+        
 
         if(base_path['IdentificacaoTomador' as jsonKeys2]['InscricaoMunicipal' as jsonKeys2]){
             var inscricao_municipal = (base_path['IdentificacaoTomador' as jsonKeys2]['InscricaoMunicipal' as jsonKeys2] as string).replace('-', '');
@@ -32,8 +39,18 @@ async function getTomador(json_object: object){
 
         var bairro = base_path['Endereco' as jsonKeys2]['Bairro' as jsonKeys2];
         var cod_municipio = base_path['Endereco' as jsonKeys2]['CodigoMunicipio' as jsonKeys2] as number;
+        if (cod_municipio == 0){
+            cod_municipio = 9999999
+        }
+        
         var uf = base_path['Endereco' as jsonKeys2]['Uf' as jsonKeys2] as string;
-        var cep = (base_path['Endereco' as jsonKeys2]['Cep' as jsonKeys2] as string).replace('-', '');
+
+        if (base_path['Endereco' as jsonKeys2]['Cep' as jsonKeys2] as string){
+            var cep = (base_path['Endereco' as jsonKeys2]['Cep' as jsonKeys2] as string).replace('-', '');
+        }else {
+            var cep = ''
+        }
+        
 
         if (complemento !== ''){
             var endereco_tomador = new Endereco(endereco, numero, bairro, cod_municipio, uf, cep, complemento);

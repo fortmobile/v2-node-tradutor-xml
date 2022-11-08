@@ -54,7 +54,7 @@ class Tomador{
 
 class IdentificacaoPrestadorTomador{
     CpfCnpj: {
-        Cnpj: string
+        Cnpj?: string
     };
     InscricaoMunicipal?: string
 
@@ -63,7 +63,10 @@ class IdentificacaoPrestadorTomador{
             Cnpj
         }
 
-        this.CpfCnpj.Cnpj = Cnpj;
+        if (Cnpj != ''){
+            this.CpfCnpj.Cnpj = Cnpj;
+        }
+        
 
         if(InscricaoMunicipal){
             this.InscricaoMunicipal = InscricaoMunicipal;
