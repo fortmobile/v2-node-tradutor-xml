@@ -14,7 +14,7 @@ async function getPrestador(json_object: object){
         var identificacao_prestador = new IdentificacaoPrestadorTomador(cnpj, inscricao_municipal);
 
         var endereco = base_path['Endereco' as jsonKeys2]['Endereco' as jsonKeys2] as string;
-        var numero = base_path['Endereco' as jsonKeys2]['Numero' as jsonKeys2] as number
+        var numero = base_path['Endereco' as jsonKeys2]['Numero' as jsonKeys2] as string;
 
         if (base_path['Endereco' as jsonKeys2]['Complemento' as jsonKeys2]){
             var complemento = base_path['Endereco' as jsonKeys2]['Complemento' as jsonKeys2] as string;

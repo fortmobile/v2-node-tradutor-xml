@@ -1,13 +1,14 @@
 class Contato{
-    Telefone: number;
-    Email?: string;
+    Email: string;
+    Telefone?: string;
 
-    constructor(telefone: number, email?: string){
-        this.Telefone = telefone;
-
-        if(email){
-            this.Email = email;
+    constructor(email: string, telefone?: string){
+        if (telefone){
+            this.Telefone = telefone;
         }
+        
+
+        this.Email = email;
     }
 }
 

@@ -19,7 +19,7 @@ async function getPrestador(json_object: object){
 
         // Endereço Prestador
         var endereco = base_path['PrestadorEndereco' as jsonKeys2] as string;
-        var numero = base_path['PrestadorNumero' as jsonKeys2] as number;       
+        var numero = base_path['PrestadorNumero' as jsonKeys2] as string;       
         if (base_path['PrestasdorComplemento' as jsonKeys2]){
             var complemento = base_path['PrestasdorComplemento' as jsonKeys2] as string;
         }

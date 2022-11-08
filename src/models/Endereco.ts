@@ -1,13 +1,13 @@
 class Endereco{
     Endereco?: string;
-    Numero?: number;
+    Numero?: string;
     Bairro?: string;
     CodigoMunicipio: number;
     Uf?: string;
     Cep?: string;
     Complemento?: string;
 
-    constructor(endereco: string, numero: number, bairro: string, codigo_municipio: number, uf: string, cep: string, complemento?: string){
+    constructor(endereco: string, numero: string, bairro: string, codigo_municipio: number, uf: string, cep: string, complemento?: string){
         if(endereco !== '' &&  endereco !== undefined){
             this.Endereco = endereco;
         }
