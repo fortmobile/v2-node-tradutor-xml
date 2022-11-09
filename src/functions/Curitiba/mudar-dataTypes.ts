@@ -17,10 +17,10 @@ async function mudarDataTypes(xml_file: string){
     }
 
     var cpfs_indexes = getAllIndexes(xml_text, '<Cpf>');
-    for (let i = 0; i < cnpjs_indexes.length; i++){
-        let old_cnpj = (await getValor(xml_text, cnpjs_indexes[i])).toString()
-        let new_cnpj = await formatCpfCnpj(old_cnpj) as string;
-        xml_text2 = await replaceText(xml_text2, old_cnpj, new_cnpj);
+    for (let i = 0; i < cpfs_indexes.length; i++){
+        let old_cpf = (await getValor(xml_text, cpfs_indexes[i])).toString()
+        let new_cpf = await formatCpfCnpj(old_cpf) as string;
+        xml_text2 = await replaceText(xml_text2, old_cpf, new_cpf);
     }
 
     var cep_indexes = getAllIndexes(xml_text, '<Cep>');

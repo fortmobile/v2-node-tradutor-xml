@@ -10,21 +10,26 @@ async function getTomador(json_object: object){
 
         
         if(base_path['IdentificacaoTomador' as jsonKeys2]['CpfCnpj' as jsonKeys2]['Cnpj' as jsonKeys2] as string){
-            var cnpj = base_path['IdentificacaoTomador' as jsonKeys2]['CpfCnpj' as jsonKeys2]['Cnpj' as jsonKeys2] as string;
-            cnpj = cnpj.replace('-', '').replace('.', '').replace('.', '').replace('/', '');
-        }else{
-            var cnpj = ''
+            var cnpjcpf = base_path['IdentificacaoTomador' as jsonKeys2]['CpfCnpj' as jsonKeys2]['Cnpj' as jsonKeys2] as string;
+            cnpjcpf = cnpjcpf.replace('-', '').replace('.', '').replace('.', '').replace('/', '');
+        }
+        else if(base_path['IdentificacaoTomador' as jsonKeys2]['CpfCnpj' as jsonKeys2]['Cpf' as jsonKeys2] as string){
+            var cnpjcpf = base_path['IdentificacaoTomador' as jsonKeys2]['CpfCnpj' as jsonKeys2]['Cpf' as jsonKeys2] as string;
+            cnpjcpf = cnpjcpf.replace('.', '').replace('.', '').replace('-', '')
+        }
+        else{
+            var cnpjcpf = ''
         }
 
         
 
         if(base_path['IdentificacaoTomador' as jsonKeys2]['InscricaoMunicipal' as jsonKeys2]){
             var inscricao_municipal = (base_path['IdentificacaoTomador' as jsonKeys2]['InscricaoMunicipal' as jsonKeys2] as string).replace('-', '');
-            var identificacao_tomador = (new IdentificacaoPrestadorTomador(cnpj, inscricao_municipal));
+            var identificacao_tomador = (new IdentificacaoPrestadorTomador(cnpjcpf, inscricao_municipal));
 
         }
         else{
-            var identificacao_tomador = new IdentificacaoPrestadorTomador(cnpj);
+            var identificacao_tomador = new IdentificacaoPrestadorTomador(cnpjcpf);
         }
 
         var endereco = base_path['Endereco' as jsonKeys2]['Endereco' as jsonKeys2] as string;

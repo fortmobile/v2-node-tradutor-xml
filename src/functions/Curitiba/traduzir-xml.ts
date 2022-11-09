@@ -64,4 +64,4 @@ async function traduzirXmlCuritiba(xml_file_path: string, xml_file_name: string,
 }
 
 
-traduzirXmlCuritiba('../../../xmls/curitiba/curitiba-canc.xml', 'aaa', 'result')
+traduzirXmlCuritiba('../../../xmls/curitiba/curitiba-canc.xml', 'aaa', 'results')

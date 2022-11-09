@@ -55,16 +55,19 @@ class Tomador{
 class IdentificacaoPrestadorTomador{
     CpfCnpj: {
         Cnpj?: string
+        Cpf?: string
     };
     InscricaoMunicipal?: string
 
-    constructor(Cnpj: string, InscricaoMunicipal?: string){
+    constructor(CnpjCpf: string, InscricaoMunicipal?: string){
         this.CpfCnpj = {
-            Cnpj
         }
 
-        if (Cnpj != ''){
-            this.CpfCnpj.Cnpj = Cnpj;
+        if (CnpjCpf.length == 14){
+            this.CpfCnpj.Cnpj = CnpjCpf;
+        }
+        else if (CnpjCpf.length == 11){
+            this.CpfCnpj.Cpf = CnpjCpf;
         }
         
 
