@@ -32,7 +32,7 @@ async function formatCpfCnpj(cpf_cnpj: string){
 
 async function formatCMC(cmc: string){
     try {
-        var cmc_final = cmc[0] + cmc[1] + cmc[2] + cmc[3] + cmc[4] + cmc[5] + '-' + cmc[6];
+        var cmc_final = cmc + '-'
         return cmc_final;;
     } catch (error) {
         return error;

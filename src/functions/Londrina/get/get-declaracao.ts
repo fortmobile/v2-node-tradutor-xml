@@ -32,7 +32,18 @@ async function getDeclaracao(json_object: object, servico: Servico, prestador: P
         var rps_numero = base_path2["RpsNumero" as jsonKeys2] as number;
         var rps_serie = base_path2["RpsSerie" as jsonKeys2] as number;
         var rps_tipo = base_path2["RpsTipo" as jsonKeys2] as number;
-        var rps_data = `${(base_path2["RpsAno" as jsonKeys2] as string)}${(base_path2["RpsMes" as jsonKeys2]as string)}${(base_path2["RpsDia" as jsonKeys2] as string)}`
+
+        var rps_mes = (base_path2["RpsMes" as jsonKeys2]as string).toString();
+        if (rps_mes.length == 1){
+            rps_mes = '0' + rps_mes
+        }
+
+        var rps_dia = (base_path2["RpsDia" as jsonKeys2]as string).toString();
+        if (rps_dia.length == 1){
+            rps_dia = '0' + rps_dia
+        }
+
+        var rps_data = `${(base_path2["RpsAno" as jsonKeys2] as string).toString()}${rps_mes}${rps_dia}`
         var rps_status = base_path4["StatusNfse" as jsonKeys4] as number;
 
         var rps = new Rps(rps_numero, rps_serie, rps_tipo, rps_data, rps_status);
