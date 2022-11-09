@@ -17,7 +17,7 @@ import { getInfNfse } from './get/get-infnse';
 import { ValoresNfse } from '../../models/Valores';
 import { Xml_Nfse } from '../../models/Xml-Nfse';
 
-async function traduzirXmlCuritiba(xml_file_path: string, xml_file_name: string, folder_name: string){
+async function traduzirXmlCuritiba(xml_file_path: string, folder_name: string){
     try {
         var new_xml = await mudarDataTypes(xml_file_path);
 
@@ -52,16 +52,14 @@ async function traduzirXmlCuritiba(xml_file_path: string, xml_file_name: string,
             fs.writeFileSync(`${folder_name}/${prestador.IdentificacaoPrestador.CpfCnpj.Cnpj}-${infnfse.Numero}.xml`, xmlContent);
         }
 
-        //await fs.unlinkSync(path.join(__dirname, new_xml));
+        fs.unlinkSync(new_xml);
+        
         return({message: 'xml convertido com sucesso'});
 
-
-
-
     } catch (error) {
-        console.log({message: 'erro ao converter xml'})
+
+        return({message: 'erro ao converter xml'})
     }
 }
 
-
-traduzirXmlCuritiba('../../../xmls/curitiba/curitiba-canc.xml', 'aaa', 'results')
+export {traduzirXmlCuritiba}
