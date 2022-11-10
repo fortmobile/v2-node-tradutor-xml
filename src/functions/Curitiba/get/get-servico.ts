@@ -30,7 +30,12 @@ async function getServico(json_object: object){
             var iss_retido2 = false;
         }
         
-        var item_lista_servico = (base_path['ItemListaServico'] as string).toString();
+        if (base_path['ItemListaServico']){
+            var item_lista_servico = (base_path['ItemListaServico'] as string).toString();
+        } else {
+            var item_lista_servico = (base_path['CodigoCnae'] as string).toString()
+        }
+
 
         var discriminacao = base_path['Discriminacao'] as string;
 

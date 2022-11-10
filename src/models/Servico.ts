@@ -24,7 +24,7 @@ class Servico{
         else{
             this.IssRetido = 3;
         }
-        
+
 
         if (item_lista_servico.length == 3){
             this.ItemListaServico = '0' + item_lista_servico;
@@ -41,6 +41,7 @@ class Servico{
             this.CodigoCnae = '0' + item_lista_servico[4];
             this.CodigoTributacaoMunicipio = this.ItemListaServico + this.CodigoCnae;
         }
+        //else if (len == 9 --> pesquisa cnae)
         else{
             this.ItemListaServico = 'error';
             this.CodigoCnae = 'error';
