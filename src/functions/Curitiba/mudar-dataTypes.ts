@@ -1,6 +1,5 @@
 var fs = require('fs');
 
-import { Console } from "console";
 import { formatCep, formatCpfCnpj, formatCMC, replaceText } from "../Gerais/formatar"
 import { getAllIndexes } from "../Gerais/get-all-indexes";
 import { getValor } from "../Gerais/get-valor"

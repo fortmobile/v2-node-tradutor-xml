@@ -26,7 +26,8 @@ async function getPrestador(json_object: object){
         var bairro = base_path['Endereco' as jsonKeys2]['Bairro' as jsonKeys2];
         var cod_municipio = base_path['Endereco' as jsonKeys2]['CodigoMunicipio' as jsonKeys2] as number;
         var uf = base_path['Endereco' as jsonKeys2]['Uf' as jsonKeys2] as string;
-        var cep = (base_path['Endereco' as jsonKeys2]['Cep' as jsonKeys2] as string).replace('-', '');
+        var cep = (base_path['Endereco' as jsonKeys2]['Cep' as jsonKeys2] as string)
+        cep = cep.replace('-', '');
 
         if (complemento !== ''){
             var endereco_prestador = new Endereco(endereco, numero, bairro, cod_municipio, uf, cep, complemento);

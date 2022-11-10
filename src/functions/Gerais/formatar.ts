@@ -1,6 +1,6 @@
 async function formatCep(cep: string){
     try {
-        var cep_final = cep[0] + cep[1] + cep[2] + cep[3] + cep[4] + '-' + cep[5] + cep[6] + cep[7]
+        var cep_final = cep + '-'
         return cep_final;
     } catch (error) {
         return error;
@@ -40,7 +40,7 @@ async function formatCMC(cmc: string){
 }
 
 async function replaceText(text: string, old_string: string, new_string: string){
-    var new_text = text.replace(old_string, new_string);
+    var new_text = text.replace(`>${old_string}<`, `>${new_string}<`);
     
     return new_text;
 }
