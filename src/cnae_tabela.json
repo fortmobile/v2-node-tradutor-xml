@@ -1,0 +1,3891 @@
+[
+  {
+    "CÓDIGO": 1001,
+    "CNAE": "K662230000",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Corretores e agentes de seguros, de planos de previdencia complementar e de saude"
+  },
+  {
+    "CÓDIGO": 1002,
+    "CNAE": "M749010403",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Agenciamento, corretagem ou intermediacao de titulos em geral, valores mobiliarios e contratos quaisquer"
+  },
+  {
+    "CÓDIGO": 1002,
+    "CNAE": "M749010500",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Agenciamento de profissionais para atividades esportivas, culturais e artisticas"
+  },
+  {
+    "CÓDIGO": 1003,
+    "CNAE": "M691170300",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Agente de propriedade industrial"
+  },
+  {
+    "CÓDIGO": 1005,
+    "CNAE": "H525080300",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Agenciamento de cargas, exceto para o transporte maritimo"
+  },
+  {
+    "CÓDIGO": 1005,
+    "CNAE": "M749010400",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Atividades de intermediacao e agenciamento de servicos e negocios em geral, exceto imobiliarios"
+  },
+  {
+    "CÓDIGO": 1005,
+    "CNAE": "L682180100",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Corretagem na compra e venda e avaliacao de imoveis"
+  },
+  {
+    "CÓDIGO": 1006,
+    "CNAE": "H523200000",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Atividades de agenciamento maritimo"
+  },
+  {
+    "CÓDIGO": 1007,
+    "CNAE": "J639170000",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Agencias de noticias"
+  },
+  {
+    "CÓDIGO": 1008,
+    "CNAE": "M731220000",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Agenciamento de espacos para publicidade, exceto em veiculos de comunicacao"
+  },
+  {
+    "CÓDIGO": 1009,
+    "CNAE": "G451290100",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Representantes comerciais e agentes do comercio de veiculos automotores"
+  },
+  {
+    "CÓDIGO": 1009,
+    "CNAE": "G453070600",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Representantes comerciais e agentes do comercio de pecas e acessorios novos e usados para veiculos automotores"
+  },
+  {
+    "CÓDIGO": 1009,
+    "CNAE": "G454210100",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Representantes comerciais e agentes do comercio de motocicletas e motonetas, pecas e acessorios"
+  },
+  {
+    "CÓDIGO": 1009,
+    "CNAE": "G461170000",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Representantes comerciais e agentes do comercio de materias-primas agricolas e animais vivos"
+  },
+  {
+    "CÓDIGO": 1009,
+    "CNAE": "G461250000",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Representantes comerciais e agentes do comercio de combustiveis, minerais, produtos siderurgicos e quimicos"
+  },
+  {
+    "CÓDIGO": 1009,
+    "CNAE": "G461330000",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Representantes comerciais e agentes do comercio de madeira, material de construcao e ferragens"
+  },
+  {
+    "CÓDIGO": 1009,
+    "CNAE": "G461410000",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Representantes comerciais e agentes do comercio de maquinas, equipamentos, embarcacoes e aeronaves"
+  },
+  {
+    "CÓDIGO": 1009,
+    "CNAE": "G461500000",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Representantes comerciais e agentes do comercio de eletrodomesticos, moveis e artigos de uso domestico"
+  },
+  {
+    "CÓDIGO": 1009,
+    "CNAE": "G461680000",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Representantes comerciais e agentes do comercio de texteis, vestuario, calcados e artigos de viagem"
+  },
+  {
+    "CÓDIGO": 1009,
+    "CNAE": "G461760000",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Representantes comerciais e agentes do comercio de produtos alimenticios, bebidas e fumo"
+  },
+  {
+    "CÓDIGO": 1009,
+    "CNAE": "G461840100",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Representantes comerciais e agentes do comercio de medicamentos, cosmeticos e produtos de perfumaria"
+  },
+  {
+    "CÓDIGO": 1009,
+    "CNAE": "G461840200",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Representantes comerciais e agentes do comercio de instrumentos e materiais odonto-medico-hospitalares"
+  },
+  {
+    "CÓDIGO": 1009,
+    "CNAE": "G461840300",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Representantes comerciais e agentes do comercio de jornais, revistas e outras publicacoes"
+  },
+  {
+    "CÓDIGO": 1009,
+    "CNAE": "G461849900",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Outros representantes comerciais e agentes do comercio especializado em produtos nao especificados anteriormente"
+  },
+  {
+    "CÓDIGO": 1009,
+    "CNAE": "G461920000",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Representantes comerciais e agentes do comercio de mercadorias em geral nao especializado"
+  },
+  {
+    "CÓDIGO": 1010,
+    "CNAE": "J591380000",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Distribuicao cinematografica, de video e de programas de televisao"
+  },
+  {
+    "CÓDIGO": 1102,
+    "CNAE": "N802000200",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Outras atividades de servicos de seguranca"
+  },
+  {
+    "CÓDIGO": 1102,
+    "CNAE": "N801110100",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "SIM",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Atividades de vigilancia e seguranca privada"
+  },
+  {
+    "CÓDIGO": 1102,
+    "CNAE": "N802000100",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "SIM",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Atividades de monitoramento de sistemas de seguranca eletronico"
+  },
+  {
+    "CÓDIGO": 1104,
+    "CNAE": "H521170100",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Armazens gerais - emissao de warrant"
+  },
+  {
+    "CÓDIGO": 1104,
+    "CNAE": "H521170200",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Guarda-moveis"
+  },
+  {
+    "CÓDIGO": 1104,
+    "CNAE": "H521179900",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Depositos de mercadorias para terceiros, exceto armazens gerais e guarda-moveis"
+  },
+  {
+    "CÓDIGO": 1104,
+    "CNAE": "H521250000",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Carga e descarga"
+  },
+  {
+    "CÓDIGO": 1104,
+    "CNAE": "H522909900",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "SIM",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Outras atividades auxiliares dos transportes terrestres nao especificadas anteriormente"
+  },
+  {
+    "CÓDIGO": 1202,
+    "CNAE": "J591460000",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Atividades de exibicao cinematografica"
+  },
+  {
+    "CÓDIGO": 1205,
+    "CNAE": "R910310000",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Atividades de jardins botanicos, zoologicos, parques nacionais, reservas ecologicas e areas de protecao ambiental"
+  },
+  {
+    "CÓDIGO": 1205,
+    "CNAE": "R931230000",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Clubes sociais, esportivos e similares (Institucional Local-INS-L)"
+  },
+  {
+    "CÓDIGO": 1205,
+    "CNAE": "R932120000",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Parques de diversao e parques tematicos"
+  },
+  {
+    "CÓDIGO": 1206,
+    "CNAE": "R932980100",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Discotecas, danceterias, saloes de danca e similares"
+  },
+  {
+    "CÓDIGO": 1209,
+    "CNAE": "N772920100",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Aluguel de aparelhos de jogos eletronicos"
+  },
+  {
+    "CÓDIGO": 1209,
+    "CNAE": "N829970700",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Salas de acesso a internet - cyber"
+  },
+  {
+    "CÓDIGO": 1209,
+    "CNAE": "R932980200",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Exploracao de boliches"
+  },
+  {
+    "CÓDIGO": 1209,
+    "CNAE": "R932980300",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Exploracao de jogos de sinuca, bilhar e similares"
+  },
+  {
+    "CÓDIGO": 1209,
+    "CNAE": "R932980400",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Exploracao de jogos eletronicos recreativos"
+  },
+  {
+    "CÓDIGO": 1211,
+    "CNAE": "R931910100",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Producao e promocao de eventos esportivos"
+  },
+  {
+    "CÓDIGO": 1213,
+    "CNAE": "J602250100",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Programadoras"
+  },
+  {
+    "CÓDIGO": 1213,
+    "CNAE": "R900190100",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Producao teatral"
+  },
+  {
+    "CÓDIGO": 1213,
+    "CNAE": "R900190200",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Producao musical"
+  },
+  {
+    "CÓDIGO": 1213,
+    "CNAE": "R900190300",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Producao de espetaculos de danca"
+  },
+  {
+    "CÓDIGO": 1213,
+    "CNAE": "R900190400",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Producao de espetaculos circenses, de marionetes e similares"
+  },
+  {
+    "CÓDIGO": 1213,
+    "CNAE": "R900190500",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Producao de espetaculos de rodeios, vaquejadas e similares"
+  },
+  {
+    "CÓDIGO": 1213,
+    "CNAE": "R900199900",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Artes cenicas, espetaculos e atividades complementares nao especificados anteriormente"
+  },
+  {
+    "CÓDIGO": 1214,
+    "CNAE": "R900190600",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Atividades de sonorizacao e de iluminacao"
+  },
+  {
+    "CÓDIGO": 1216,
+    "CNAE": "N772250000",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Aluguel de fitas de video, DVDs e similares"
+  },
+  {
+    "CÓDIGO": 1217,
+    "CNAE": "N772170000",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Aluguel de equipamentos recreativos e esportivos"
+  },
+  {
+    "CÓDIGO": 1217,
+    "CNAE": "R932989900",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Outras atividades de recreacao e lazer nao especificadas anteriormente"
+  },
+  {
+    "CÓDIGO": 1302,
+    "CNAE": "J591200100",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Servicos de dublagem"
+  },
+  {
+    "CÓDIGO": 1302,
+    "CNAE": "J591200200",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Servicos de mixagem sonora em producao audiovisual"
+  },
+  {
+    "CÓDIGO": 1302,
+    "CNAE": "J592010000",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Atividades de gravacao de som e de edicao de musica"
+  },
+  {
+    "CÓDIGO": 1303,
+    "CNAE": "J591110100",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Estudios cinematograficos"
+  },
+  {
+    "CÓDIGO": 1303,
+    "CNAE": "J591110200",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Producao de filmes para publicidade"
+  },
+  {
+    "CÓDIGO": 1303,
+    "CNAE": "J591119900",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Atividades de producao cinematografica, de videos e de programas de televisao nao especificadas anteriormente"
+  },
+  {
+    "CÓDIGO": 1303,
+    "CNAE": "J591209900",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Atividades de pos-producao cinematografica, de videos e de programas de televisao nao especificadas anteriormente"
+  },
+  {
+    "CÓDIGO": 1303,
+    "CNAE": "M742000100",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Atividades de producao de fotografias, exceto aerea e submarina"
+  },
+  {
+    "CÓDIGO": 1303,
+    "CNAE": "M742000200",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Atividades de producao de fotografias aereas e submarinas"
+  },
+  {
+    "CÓDIGO": 1303,
+    "CNAE": "M742000300",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Laboratorios fotograficos"
+  },
+  {
+    "CÓDIGO": 1303,
+    "CNAE": "M742000400",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Filmagem de festas e eventos"
+  },
+  {
+    "CÓDIGO": 1304,
+    "CNAE": "M742000500",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Servicos de microfilmagem"
+  },
+  {
+    "CÓDIGO": 1304,
+    "CNAE": "N821990100",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Fotocopias"
+  },
+  {
+    "CÓDIGO": 1305,
+    "CNAE": "C182110000",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Servicos de pre-impressao"
+  },
+  {
+    "CÓDIGO": 1305,
+    "CNAE": "C182299900",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Servicos de acabamentos graficos, exceto encadernacao e plastificacao"
+  },
+  {
+    "CÓDIGO": 1401,
+    "CNAE": "C272280200",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Recondicionamento de baterias e acumuladores para veiculos automotores"
+  },
+  {
+    "CÓDIGO": 1401,
+    "CNAE": "C331120000",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Manutencao e reparacao de tanques, reservatorios metalicos e caldeiras, exceto para veiculos"
+  },
+  {
+    "CÓDIGO": 1401,
+    "CNAE": "C331210200",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Manutencao e reparacao de aparelhos e instrumentos de medida, teste e controle"
+  },
+  {
+    "CÓDIGO": 1401,
+    "CNAE": "C331210300",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Manutencao e reparacao de aparelhos eletromedicos e eletroterapeuticos e equipamentos de irradiacao"
+  },
+  {
+    "CÓDIGO": 1401,
+    "CNAE": "C331210400",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Manutencao e reparacao de equipamentos e instrumentos opticos"
+  },
+  {
+    "CÓDIGO": 1401,
+    "CNAE": "C331390100",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Manutencao e reparacao de geradores, transformadores e motores eletricos"
+  },
+  {
+    "CÓDIGO": 1401,
+    "CNAE": "C331390200",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Manutencao e reparacao de baterias e acumuladores eletricos, exceto para veiculos"
+  },
+  {
+    "CÓDIGO": 1401,
+    "CNAE": "C331399900",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Manutencao e reparacao de maquinas, aparelhos e materiais eletricos nao especificados anteriormente"
+  },
+  {
+    "CÓDIGO": 1401,
+    "CNAE": "C331470100",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Manutencao e reparacao de maquinas motrizes nao-eletricas"
+  },
+  {
+    "CÓDIGO": 1401,
+    "CNAE": "C331470200",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Manutencao e reparacao de equipamentos hidraulicos e pneumaticos, exceto valvulas"
+  },
+  {
+    "CÓDIGO": 1401,
+    "CNAE": "C331470300",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Manutencao e reparacao de valvulas industriais"
+  },
+  {
+    "CÓDIGO": 1401,
+    "CNAE": "C331470400",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Manutencao e reparacao de compressores"
+  },
+  {
+    "CÓDIGO": 1401,
+    "CNAE": "C331470500",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Manutencao e reparacao de equipamentos de transmissao para fins industriais"
+  },
+  {
+    "CÓDIGO": 1401,
+    "CNAE": "C331470600",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Manutencao e reparacao de maquinas, aparelhos e equipamentos para instalacoes termicas"
+  },
+  {
+    "CÓDIGO": 1401,
+    "CNAE": "C331470700",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Manutencao e reparacao de maquinas e aparelhos de refrigeracao e ventilacao para uso industrial e comercial"
+  },
+  {
+    "CÓDIGO": 1401,
+    "CNAE": "C331470800",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Manutencao e reparacao de maquinas, equipamentos e aparelhos para transporte e elevacao de cargas"
+  },
+  {
+    "CÓDIGO": 1401,
+    "CNAE": "C331470900",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Manutencao e reparacao de maquinas de escrever, calcular e de outros equipamentos nao-eletronicos para escritorio"
+  },
+  {
+    "CÓDIGO": 1401,
+    "CNAE": "C331471000",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Manutencao e reparacao de maquinas e equipamentos para uso geral nao especificados anteriormente"
+  },
+  {
+    "CÓDIGO": 1401,
+    "CNAE": "C331471100",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Manutencao e reparacao de maquinas e equipamentos para agricultura e pecuaria"
+  },
+  {
+    "CÓDIGO": 1401,
+    "CNAE": "C331471200",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Manutencao e reparacao de tratores agricolas"
+  },
+  {
+    "CÓDIGO": 1401,
+    "CNAE": "C331471300",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Manutencao e reparacao de maquinas-ferramenta"
+  },
+  {
+    "CÓDIGO": 1401,
+    "CNAE": "C331471400",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Manutencao e reparacao de maquinas e equipamentos para a prospeccao e extracao de petroleo"
+  },
+  {
+    "CÓDIGO": 1401,
+    "CNAE": "C331471500",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Manutencao e reparacao de maquinas e equipamentos para uso na extracao mineral, exceto na extracao de petroleo"
+  },
+  {
+    "CÓDIGO": 1401,
+    "CNAE": "C331471600",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Manutencao e reparacao de tratores, exceto agricolas"
+  },
+  {
+    "CÓDIGO": 1401,
+    "CNAE": "C331471700",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Manutencao e reparacao de maquinas e equipamentos de terraplenagem, pavimentacao e\nconstrucao, exceto tratores"
+  },
+  {
+    "CÓDIGO": 1401,
+    "CNAE": "C331471800",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Manutencao e reparacao de maquinas para a industria metalurgica, exceto maquinas-ferramenta"
+  },
+  {
+    "CÓDIGO": 1401,
+    "CNAE": "C331471900",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Manutencao e reparacao de maquinas e equipamentos para as industrias de alimentos, bebidas e fumo"
+  },
+  {
+    "CÓDIGO": 1401,
+    "CNAE": "C331472000",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Manutencao e reparacao de maquinas e equipamentos para a industria textil, do vestuario, do couro e calcados"
+  },
+  {
+    "CÓDIGO": 1401,
+    "CNAE": "C331472100",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Manutencao e reparacao de maquinas e aparelhos para a industria de celulose, papel e papelao e artefatos"
+  },
+  {
+    "CÓDIGO": 1401,
+    "CNAE": "C331472200",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Manutencao e reparacao de maquinas e aparelhos para a industria do plastico"
+  },
+  {
+    "CÓDIGO": 1401,
+    "CNAE": "C331479900",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Manutencao e reparacao de outras maquinas e equipamentos para usos industriais não especificados anteriormente"
+  },
+  {
+    "CÓDIGO": 1401,
+    "CNAE": "C331550000",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Manutencao e reparacao de veiculos ferroviarios"
+  },
+  {
+    "CÓDIGO": 1401,
+    "CNAE": "C331630100",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Manutencao e reparacao de aeronaves, exceto a manutencao na pista"
+  },
+  {
+    "CÓDIGO": 1401,
+    "CNAE": "C331630200",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Manutencao de aeronaves na pista"
+  },
+  {
+    "CÓDIGO": 1401,
+    "CNAE": "C331710100",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Manutencao e reparacao de embarcacoes e estruturas flutuantes"
+  },
+  {
+    "CÓDIGO": 1401,
+    "CNAE": "C331710200",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Manutencao e reparacao de embarcacoes para esporte e lazer"
+  },
+  {
+    "CÓDIGO": 1401,
+    "CNAE": "C331980000",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Manutencao e reparacao de equipamentos e produtos nao especificados anteriormente"
+  },
+  {
+    "CÓDIGO": 1401,
+    "CNAE": "E383190100",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Recuperacao de sucatas de aluminio"
+  },
+  {
+    "CÓDIGO": 1401,
+    "CNAE": "E383199900",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Recuperacao de materiais metalicos, exceto aluminio"
+  },
+  {
+    "CÓDIGO": 1401,
+    "CNAE": "E383270000",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Recuperacao de materiais plasticos"
+  },
+  {
+    "CÓDIGO": 1401,
+    "CNAE": "E383949900",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Recuperacao de materiais nao especificados anteriormente"
+  },
+  {
+    "CÓDIGO": 1401,
+    "CNAE": "G452000100",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Servicos de manutencao e reparacao mecanica de veiculos automotores"
+  },
+  {
+    "CÓDIGO": 1401,
+    "CNAE": "G452000300",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Servicos de manutencao e reparacao eletrica de veiculos automotores"
+  },
+  {
+    "CÓDIGO": 1401,
+    "CNAE": "G452000400",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Servicos de alinhamento e balanceamento de veiculos automotores"
+  },
+  {
+    "CÓDIGO": 1401,
+    "CNAE": "G452000600",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Servicos de borracharia para veiculos automotores"
+  },
+  {
+    "CÓDIGO": 1401,
+    "CNAE": "G452000700",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Servicos de instalacao, manutencao e reparacao de acessorios para veiculos automotores"
+  },
+  {
+    "CÓDIGO": 1401,
+    "CNAE": "G452000800",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Servicos de capotaria"
+  },
+  {
+    "CÓDIGO": 1401,
+    "CNAE": "G454390000",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Manutencao e reparacao de motocicletas e motonetas"
+  },
+  {
+    "CÓDIGO": 1401,
+    "CNAE": "S951180000",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Reparacao e manutencao de computadores e de equipamentos perifericos"
+  },
+  {
+    "CÓDIGO": 1401,
+    "CNAE": "S951260000",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Reparacao e manutencao de equipamentos de comunicacao"
+  },
+  {
+    "CÓDIGO": 1401,
+    "CNAE": "S952150000",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Reparacao e manutencao de equipamentos eletroeletronicos de uso pessoal e domestico"
+  },
+  {
+    "CÓDIGO": 1401,
+    "CNAE": "S952910100",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Reparacao de calcados, bolsas e artigos de viagem"
+  },
+  {
+    "CÓDIGO": 1401,
+    "CNAE": "S952910300",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Reparacao de relogios"
+  },
+  {
+    "CÓDIGO": 1401,
+    "CNAE": "S952910400",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Reparacao de bicicletas, triciclos e outros veiculos nao-motorizados"
+  },
+  {
+    "CÓDIGO": 1401,
+    "CNAE": "S952910502",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Lustracao de bens moveis em geral"
+  },
+  {
+    "CÓDIGO": 1401,
+    "CNAE": "S952910600",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Reparacao de joias"
+  },
+  {
+    "CÓDIGO": 1401,
+    "CNAE": "S952919900",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Reparacao e manutencao de outros objetos e equipamentos pessoais e domesticos nao especificados anteriormente"
+  },
+  {
+    "CÓDIGO": 1401,
+    "CNAE": "S960929900",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Outras atividades de servicos pessoais nao especificadas anteriormente"
+  },
+  {
+    "CÓDIGO": 1401,
+    "CNAE": "F432150000",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "SIM",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Instalacao e manutencao eletrica"
+  },
+  {
+    "CÓDIGO": 1401,
+    "CNAE": "F432910300",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "SIM",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Instalação, manutenção e reparação de elevadores, escadas e esteiras rolantes"
+  },
+  {
+    "CÓDIGO": 1401,
+    "CNAE": "G452000500",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "SIM",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Servicos de lavagem, lubrificacao e polimento de veiculos automotores"
+  },
+  {
+    "CÓDIGO": 1403,
+    "CNAE": "C295060000",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Recondicionamento e recuperacao de motores para veiculos automotores"
+  },
+  {
+    "CÓDIGO": 1404,
+    "CNAE": "C221290000",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Reforma de pneumaticos usados"
+  },
+  {
+    "CÓDIGO": 1405,
+    "CNAE": "C239910100",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Decoracao, lapidacao, gravacao, vitrificacao e outros trabalhos em ceramica, louca, vidro e cristal"
+  },
+  {
+    "CÓDIGO": 1405,
+    "CNAE": "C253900100",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Servicos de usinagem, tornearia e solda"
+  },
+  {
+    "CÓDIGO": 1405,
+    "CNAE": "C253900200",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Servicos de tratamento e revestimento em metais"
+  },
+  {
+    "CÓDIGO": 1405,
+    "CNAE": "C310120001",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Servicos de marcenaria"
+  },
+  {
+    "CÓDIGO": 1405,
+    "CNAE": "C325070900",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Servico de laboratorio optico"
+  },
+  {
+    "CÓDIGO": 1405,
+    "CNAE": "N772330000",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Aluguel de objetos do vestuario, joias e acessorios"
+  },
+  {
+    "CÓDIGO": 1405,
+    "CNAE": "N829200000",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Envasamento e empacotamento sob contrato"
+  },
+  {
+    "CÓDIGO": 1406,
+    "CNAE": "C332100000",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Instalacao de maquinas e equipamentos industriais"
+  },
+  {
+    "CÓDIGO": 1406,
+    "CNAE": "C332950100",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Servicos de montagem de moveis de qualquer material"
+  },
+  {
+    "CÓDIGO": 1406,
+    "CNAE": "C332959900",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Instalacao de outros equipamentos nao especificados anteriormente"
+  },
+  {
+    "CÓDIGO": 1406,
+    "CNAE": "F432910100",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Instalacao de paineis publicitarios"
+  },
+  {
+    "CÓDIGO": 1406,
+    "CNAE": "F432910200",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Instalacao de equipamentos para orientacao a navegacao maritima, fluvial e lacustre"
+  },
+  {
+    "CÓDIGO": 1406,
+    "CNAE": "F432910400",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Montagem e instalacao de sistemas e equipamentos de iluminacao e sinalizacao em vias publicas, portos e aeroportos"
+  },
+  {
+    "CÓDIGO": 1408,
+    "CNAE": "C182290100",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Servicos de encadernacao e plastificacao"
+  },
+  {
+    "CÓDIGO": 1410,
+    "CNAE": "S960170100",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Lavanderias"
+  },
+  {
+    "CÓDIGO": 1410,
+    "CNAE": "S960170200",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Tinturarias"
+  },
+  {
+    "CÓDIGO": 1410,
+    "CNAE": "S960170300",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Toalheiros"
+  },
+  {
+    "CÓDIGO": 1412,
+    "CNAE": "G452000200",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Servicos de lanternagem ou funilaria e pintura de veiculos automotores"
+  },
+  {
+    "CÓDIGO": 1413,
+    "CNAE": "C259930200",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Servico de corte e dobra de metais"
+  },
+  {
+    "CÓDIGO": 1413,
+    "CNAE": "S952910500",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Reparacao de artigos do mobiliario"
+  },
+  {
+    "CÓDIGO": 1414,
+    "CNAE": "H522900200",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Servicos de reboque, guincho de veiculos automotor"
+  },
+  {
+    "CÓDIGO": 1414,
+    "CNAE": "F439910400",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "SIM",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Servicos de operacao e fornecimento de equipamentos para transporte e elevacao de cargas e pessoas para uso em obras"
+  },
+  {
+    "CÓDIGO": 1501,
+    "CNAE": "K661939900",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Outras atividades auxiliares dos servicos financeiros nao especificadas anteriormente"
+  },
+  {
+    "CÓDIGO": 1501,
+    "CNAE": "K663040000",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Atividades de administracao de fundos por contrato ou comissao"
+  },
+  {
+    "CÓDIGO": 1501,
+    "CNAE": "N829970500",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Servicos de levantamento de fundos sob contrato"
+  },
+  {
+    "CÓDIGO": 1510,
+    "CNAE": "K661930200",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": ""
+  },
+  {
+    "CÓDIGO": 1601,
+    "CNAE": "H492999900",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Outros transportes rodoviarios de passageiros nao especificados anteriormente"
+  },
+  {
+    "CÓDIGO": 1602,
+    "CNAE": "H492300100",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Servico de taxi"
+  },
+  {
+    "CÓDIGO": 1602,
+    "CNAE": "H492300200",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Servico de transporte de passageiros - locacao de automoveis com motorista"
+  },
+  {
+    "CÓDIGO": 1602,
+    "CNAE": "H495070000",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Trens turisticos, telefericos e similares"
+  },
+  {
+    "CÓDIGO": 1602,
+    "CNAE": "H509989900",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Outros transportes aquaviarios nao especificados anteriormente"
+  },
+  {
+    "CÓDIGO": 1602,
+    "CNAE": "H511290100",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Servico de taxi aereo e locacao de aeronaves com tripulacao"
+  },
+  {
+    "CÓDIGO": 1602,
+    "CNAE": "H511299900",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Outros servicos de transporte aereo de passageiros nao-regular"
+  },
+  {
+    "CÓDIGO": 1602,
+    "CNAE": "Q862240000",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Servicos de remocao de pacientes, exceto os servicos moveis de atendimento a urgencias"
+  },
+  {
+    "CÓDIGO": 1701,
+    "CNAE": "J639920000",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Outras atividades de prestacao de servicos de informacao nao especificadas anteriormente"
+  },
+  {
+    "CÓDIGO": 1701,
+    "CNAE": "N829110002",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Servicos de informacoes cadastrais"
+  },
+  {
+    "CÓDIGO": 1701,
+    "CNAE": "N829970100",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Medicao de consumo de energia eletrica, gas e agua"
+  },
+  {
+    "CÓDIGO": 1701,
+    "CNAE": "S960920200",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Agencias matrimoniais"
+  },
+  {
+    "CÓDIGO": 1701,
+    "CNAE": "H525080400",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Organizacao logistica do transporte de carga"
+  },
+  {
+    "CÓDIGO": 1701,
+    "CNAE": "H525080500",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Operador de transporte multimodal - OTM"
+  },
+  {
+    "CÓDIGO": 1701,
+    "CNAE": "K662910000",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Atividades auxiliares dos seguros, da previdencia complementar e dos planos de saude nao especificadas anteriormente"
+  },
+  {
+    "CÓDIGO": 1701,
+    "CNAE": "M702040000",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Atividades de consultoria em gestao empresarial, exceto consultoria tecnica especifica"
+  },
+  {
+    "CÓDIGO": 1701,
+    "CNAE": "M731900400",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Consultoria em publicidade"
+  },
+  {
+    "CÓDIGO": 1701,
+    "CNAE": "N829970200",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Emissao de vales-alimentacao, vales-transporte e similares"
+  },
+  {
+    "CÓDIGO": 1701,
+    "CNAE": "N829979900",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "SIM",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Outras atividades de servicos prestados principalmente as empresas nao especificadas anteriormente"
+  },
+  {
+    "CÓDIGO": 1702,
+    "CNAE": "H522900100",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Servicos de apoio ao transporte por taxi, inclusive centrais de chamada (centrais de mototaxi e taxi)"
+  },
+  {
+    "CÓDIGO": 1702,
+    "CNAE": "J582120000",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Edicao integrada a impressao de livros"
+  },
+  {
+    "CÓDIGO": 1702,
+    "CNAE": "J582390000",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Edicao integrada a impressao de revistas"
+  },
+  {
+    "CÓDIGO": 1702,
+    "CNAE": "J582980000",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Edicao integrada a impressao de cadastros, listas e outros produtos graficos"
+  },
+  {
+    "CÓDIGO": 1702,
+    "CNAE": "N821130000",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Servicos combinados de escritorio e apoio administrativo"
+  },
+  {
+    "CÓDIGO": 1702,
+    "CNAE": "N821999900",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Preparacao de documentos e servicos especializados de apoio administrativo nao especificados anteriormente"
+  },
+  {
+    "CÓDIGO": 1702,
+    "CNAE": "M749010100",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Servicos de traducao, interpretacao e similares"
+  },
+  {
+    "CÓDIGO": 1702,
+    "CNAE": "J581150000",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Edicao de livros"
+  },
+  {
+    "CÓDIGO": 1702,
+    "CNAE": "J581230100",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Edicao de jornais diarios"
+  },
+  {
+    "CÓDIGO": 1702,
+    "CNAE": "J581230200",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Edicao de jornais nao diarios"
+  },
+  {
+    "CÓDIGO": 1702,
+    "CNAE": "J581310000",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Edicao de revistas"
+  },
+  {
+    "CÓDIGO": 1702,
+    "CNAE": "J581910000",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Edicao de cadastros, listas e outros produtos graficos"
+  },
+  {
+    "CÓDIGO": 1702,
+    "CNAE": "J582210200",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Edicao integrada a impressao de jornais nao diarios"
+  },
+  {
+    "CÓDIGO": 1702,
+    "CNAE": "J582210100",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Edicao integrada a impressao de jornais diarios"
+  },
+  {
+    "CÓDIGO": 1704,
+    "CNAE": "N781080000",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Selecao e agenciamento de mao-de-obra"
+  },
+  {
+    "CÓDIGO": 1705,
+    "CNAE": "N811170000",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "SIM",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Servicos combinados para apoio a edificios, exceto condominios prediais"
+  },
+  {
+    "CÓDIGO": 1706,
+    "CNAE": "M731900200",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Promocao de vendas"
+  },
+  {
+    "CÓDIGO": 1706,
+    "CNAE": "M731900300",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Marketing direto"
+  },
+  {
+    "CÓDIGO": 1706,
+    "CNAE": "M731909900",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Outras atividades de publicidade nao especificadas anteriormente"
+  },
+  {
+    "CÓDIGO": 1706,
+    "CNAE": "M731140000",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Agencias de publicidade"
+  },
+  {
+    "CÓDIGO": 1706,
+    "CNAE": "M731900100",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Criacao de estandes para feiras e exposicoes"
+  },
+  {
+    "CÓDIGO": 1707,
+    "CNAE": "J601010000",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Atividades de radio"
+  },
+  {
+    "CÓDIGO": 1709,
+    "CNAE": "M711200002",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Servicos de engenharia - Laudo e Parecer Tecnico de Engenharia"
+  },
+  {
+    "CÓDIGO": 1709,
+    "CNAE": "M711970400",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Servicos de pericia tecnica relacionados a seguranca do trabalho"
+  },
+  {
+    "CÓDIGO": 1709,
+    "CNAE": "M712010000",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Testes e analises tecnicas"
+  },
+  {
+    "CÓDIGO": 1710,
+    "CNAE": "N823000100",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Servicos de organizacao de feiras, congressos, exposicoes e festas"
+  },
+  {
+    "CÓDIGO": 1711,
+    "CNAE": "I562010200",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Servicos de alimentacao para eventos e recepcoes - bufe"
+  },
+  {
+    "CÓDIGO": 1712,
+    "CNAE": "L682180200",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Corretagem no aluguel de imoveis"
+  },
+  {
+    "CÓDIGO": 1712,
+    "CNAE": "L682260000",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Gestao e administracao da propriedade imobiliaria"
+  },
+  {
+    "CÓDIGO": 1714,
+    "CNAE": "M691170100",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "SIM",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Servicos advocaticios"
+  },
+  {
+    "CÓDIGO": 1716,
+    "CNAE": "M692060200",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Atividades de consultoria e auditoria contabil e tributaria"
+  },
+  {
+    "CÓDIGO": 1718,
+    "CNAE": "K662150200",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Auditoria e consultoria atuarial"
+  },
+  {
+    "CÓDIGO": 1722,
+    "CNAE": "N829110000",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Atividades de cobrancas e informacoes cadastrais"
+  },
+  {
+    "CÓDIGO": 1723,
+    "CNAE": "N822020000",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Atividades de teleatendimento"
+  },
+  {
+    "CÓDIGO": 1801,
+    "CNAE": "K662150100",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Peritos e avaliadores de seguros"
+  },
+  {
+    "CÓDIGO": 1901,
+    "CNAE": "N829970600",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Casas lotericas"
+  },
+  {
+    "CÓDIGO": 2001,
+    "CNAE": "H503010300",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Servicos de rebocadores e empurradores"
+  },
+  {
+    "CÓDIGO": 2001,
+    "CNAE": "H523110200",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Atividades do Operador Portuario"
+  },
+  {
+    "CÓDIGO": 2001,
+    "CNAE": "H523970100",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Servicos de praticagem"
+  },
+  {
+    "CÓDIGO": 2001,
+    "CNAE": "H523979900",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Atividades auxiliares dos transportes aquaviarios nao especificadas anteriormente"
+  },
+  {
+    "CÓDIGO": 2001,
+    "CNAE": "H523110100",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Administracao da infra-estrutura portuaria"
+  },
+  {
+    "CÓDIGO": 2001,
+    "CNAE": "H523110300",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Gestao de terminais aquaviarios"
+  },
+  {
+    "CÓDIGO": 2002,
+    "CNAE": "H524019900",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Atividades auxiliares dos transportes aereos, exceto operacao dos aeroportos e campos de aterrissagem"
+  },
+  {
+    "CÓDIGO": 2002,
+    "CNAE": "H524010100",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Operacao dos aeroportos e campos de aterrissagem"
+  },
+  {
+    "CÓDIGO": 2201,
+    "CNAE": "H522140000",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Concessionarias de rodovias, pontes, tuneis e servicos relacionados"
+  },
+  {
+    "CÓDIGO": 2301,
+    "CNAE": "M741020300",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Design de produtos"
+  },
+  {
+    "CÓDIGO": 2301,
+    "CNAE": "M741029900",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Atividades de design nao especificadas anteriormente"
+  },
+  {
+    "CÓDIGO": 2401,
+    "CNAE": "N829970300",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Servicos de gravacao de carimbos, exceto confeccao"
+  },
+  {
+    "CÓDIGO": 2401,
+    "CNAE": "S952910200",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Chaveiros"
+  },
+  {
+    "CÓDIGO": 2501,
+    "CNAE": "S960330300",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Servicos de sepultamento"
+  },
+  {
+    "CÓDIGO": 2501,
+    "CNAE": "S960330400",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Servicos de funerarias"
+  },
+  {
+    "CÓDIGO": 2501,
+    "CNAE": "S960330500",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Servicos de somatoconservacao"
+  },
+  {
+    "CÓDIGO": 2501,
+    "CNAE": "S960339900",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Atividades funerarias e servicos relacionados nao especificados anteriormente"
+  },
+  {
+    "CÓDIGO": 2502,
+    "CNAE": "S960330200",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Servicos de cremacao"
+  },
+  {
+    "CÓDIGO": 2504,
+    "CNAE": "S960330100",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Gestao e manutencao de cemiterios"
+  },
+  {
+    "CÓDIGO": 2601,
+    "CNAE": "H531050200",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Atividades de franqueadas e permissionarias do Correio Nacional"
+  },
+  {
+    "CÓDIGO": 2601,
+    "CNAE": "H532020100",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Servicos de malote nao realizados pelo Correio Nacional"
+  },
+  {
+    "CÓDIGO": 2601,
+    "CNAE": "H532020200",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Servicos de entrega rapida"
+  },
+  {
+    "CÓDIGO": 2601,
+    "CNAE": "N801290000",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "SIM",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Atividades de transporte de valores (SE-1 - Serviços de Manutencao de Frotas e Garagens de Empresas de Transportes)"
+  },
+  {
+    "CÓDIGO": 2701,
+    "CNAE": "Q880060000",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Servicos de assistencia social sem alojamento"
+  },
+  {
+    "CÓDIGO": 2901,
+    "CNAE": "R910150000",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Atividades de bibliotecas e arquivos"
+  },
+  {
+    "CÓDIGO": 3101,
+    "CNAE": "M749019900",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Outras atividades profissionais, cientificas e tecnicas nao especificadas anteriormente"
+  },
+  {
+    "CÓDIGO": 3101,
+    "CNAE": "F422190300",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "SIM",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Manutencao de redes de distribuicao de energia eletrica"
+  },
+  {
+    "CÓDIGO": 3101,
+    "CNAE": "F422190500",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "SIM",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Manutencao de estacoes e redes de telecomunicacoes"
+  },
+  {
+    "CÓDIGO": 3301,
+    "CNAE": "H525080100",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Comissaria de despachos"
+  },
+  {
+    "CÓDIGO": 3401,
+    "CNAE": "N803070000",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Atividades de investigacao particular"
+  },
+  {
+    "CÓDIGO": 3501,
+    "CNAE": "R900270100",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Atividades de artistas plasticos, jornalistas independentes e escritores"
+  },
+  {
+    "CÓDIGO": 3701,
+    "CNAE": "R931919900",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Outras atividades esportivas nao especificadas anteriormente"
+  },
+  {
+    "CÓDIGO": 3801,
+    "CNAE": "R910230100",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Atividades de museus e de exploracao de lugares e predios historicos e atracoes similares"
+  },
+  {
+    "CÓDIGO": 4001,
+    "CNAE": "R900270200",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Restauracao de obras de arte"
+  },
+  {
+    "CÓDIGO": 4001,
+    "CNAE": "F421200000",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "SIM",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Construcao de obras-de-arte especiais"
+  },
+  {
+    "CÓDIGO": "0101",
+    "CNAE": "J620150100",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Desenvolvimento de programas de computador sob encomenda"
+  },
+  {
+    "CÓDIGO": "0103",
+    "CNAE": "J631190000",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Tratamento de dados, provedores de servicos de aplicacao e servicos de hospedagem na internet"
+  },
+  {
+    "CÓDIGO": "0104",
+    "CNAE": "J620230000",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Desenvolvimento e licenciamento de programas de computador customizaveis"
+  },
+  {
+    "CÓDIGO": "0104",
+    "CNAE": "J620310000",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Desenvolvimento e licenciamento de programas de computador nao-customizaveis"
+  },
+  {
+    "CÓDIGO": "0106",
+    "CNAE": "J620400000",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Consultoria em tecnologia da informacao"
+  },
+  {
+    "CÓDIGO": "0107",
+    "CNAE": "C183000300",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Reproducao de software em qualquer suporte"
+  },
+  {
+    "CÓDIGO": "0107",
+    "CNAE": "J620910000",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Suporte tecnico, manutencao e outros servicos em tecnologia da informacao"
+  },
+  {
+    "CÓDIGO": "0108",
+    "CNAE": "J620150200",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Web design"
+  },
+  {
+    "CÓDIGO": "0109",
+    "CNAE": "J631940000",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Portais, provedores de conteudo e outros servicos de informacao na internet"
+  },
+  {
+    "CÓDIGO": "0201",
+    "CNAE": "M721000000",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Pesquisa e desenvolvimento experimental em ciencias fisicas e naturais"
+  },
+  {
+    "CÓDIGO": "0202",
+    "CNAE": "M722070000",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Pesquisa e desenvolvimento experimental em ciencias sociais e humanas"
+  },
+  {
+    "CÓDIGO": "0203",
+    "CNAE": "M732030000",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Pesquisas de mercado e de opiniao publica"
+  },
+  {
+    "CÓDIGO": "0302",
+    "CNAE": "N774030000",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Gestao de ativos intangiveis nao-financeiros"
+  },
+  {
+    "CÓDIGO": "0303",
+    "CNAE": "R931150000",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Gestao de instalacoes de esportes"
+  },
+  {
+    "CÓDIGO": "0303",
+    "CNAE": "R900350000",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Gestao de espacos para artes cenicas, espetaculos e outras atividades artisticas"
+  },
+  {
+    "CÓDIGO": "0304",
+    "CNAE": "J611080200",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Servicos de redes de transporte de telecomunicacoes - SRTT"
+  },
+  {
+    "CÓDIGO": "0304",
+    "CNAE": "J611080100",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Servicos de telefonia fixa comutada - STFC"
+  },
+  {
+    "CÓDIGO": "0304",
+    "CNAE": "J611080300",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Servicos de comunicacao multimidia - SCM"
+  },
+  {
+    "CÓDIGO": "0304",
+    "CNAE": "J611089900",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Servicos de telecomunicacoes por fio nao especificados anteriormente"
+  },
+  {
+    "CÓDIGO": "0304",
+    "CNAE": "J612050200",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Servico movel especializado - SME"
+  },
+  {
+    "CÓDIGO": "0304",
+    "CNAE": "J612059900",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Servicos de telecomunicacoes sem fio nao especificados anteriormente"
+  },
+  {
+    "CÓDIGO": "0304",
+    "CNAE": "J614180000",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Operadoras de televisao por assinatura por cabo"
+  },
+  {
+    "CÓDIGO": "0304",
+    "CNAE": "J614260000",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Operadoras de televisao por assinatura por microondas"
+  },
+  {
+    "CÓDIGO": "0304",
+    "CNAE": "J614340000",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Operadoras de televisao por assinatura por satelite"
+  },
+  {
+    "CÓDIGO": "0304",
+    "CNAE": "J619060100",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Provedores de acesso as redes de comunicacoes"
+  },
+  {
+    "CÓDIGO": "0304",
+    "CNAE": "J619060200",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Provedores de voz sobre protocolo internet - VOIP"
+  },
+  {
+    "CÓDIGO": "0304",
+    "CNAE": "J619069900",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Outras atividades de telecomunicacoes nao especificadas anteriormente"
+  },
+  {
+    "CÓDIGO": "0304",
+    "CNAE": "J602250200",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Atividades relacionadas a televisao por assinatura, exceto programadoras"
+  },
+  {
+    "CÓDIGO": "0305",
+    "CNAE": "F439910200",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Montagem e desmontagem de andaimes e outras estruturas temporarias"
+  },
+  {
+    "CÓDIGO": "0305",
+    "CNAE": "N772920200",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Aluguel de moveis, utensilios e aparelhos de uso domestico e pessoal, instrumentos \nmusicais"
+  },
+  {
+    "CÓDIGO": "0305",
+    "CNAE": "N773220200",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Aluguel de andaimes"
+  },
+  {
+    "CÓDIGO": "0305",
+    "CNAE": "N773900300",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Aluguel de palcos, coberturas e outras estruturas de uso temporario, exceto andaimes"
+  },
+  {
+    "CÓDIGO": "0401",
+    "CNAE": "Q863050300",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Atividade medica ambulatorial restrita a consultas"
+  },
+  {
+    "CÓDIGO": "0401",
+    "CNAE": "Q863059900",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Atividades de atencao ambulatorial nao especificadas anteriormente"
+  },
+  {
+    "CÓDIGO": "0402",
+    "CNAE": "Q864020400",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Servicos de tomografia"
+  },
+  {
+    "CÓDIGO": "0402",
+    "CNAE": "Q864020500",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Servicos de diagnostico por imagem com uso de radiacao ionizante, exceto tomografia"
+  },
+  {
+    "CÓDIGO": "0402",
+    "CNAE": "Q864020600",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Servicos de ressonancia magnetica"
+  },
+  {
+    "CÓDIGO": "0402",
+    "CNAE": "Q864020700",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Servicos de diagnostico por imagem sem uso de radiacao ionizante, exceto ressonancia magnetica"
+  },
+  {
+    "CÓDIGO": "0402",
+    "CNAE": "Q864020800",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Servicos de diagnostico por registro grafico - ECG, EEG e outros exames analogos"
+  },
+  {
+    "CÓDIGO": "0402",
+    "CNAE": "Q864021000",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Servicos de quimioterapia"
+  },
+  {
+    "CÓDIGO": "0402",
+    "CNAE": "Q864021100",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Servicos de radioterapia"
+  },
+  {
+    "CÓDIGO": "0402",
+    "CNAE": "Q864029900",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Atividades de servicos de complementacao diagnostica e terapeutica nao especificadas anteriormente"
+  },
+  {
+    "CÓDIGO": "0403",
+    "CNAE": "Q864020300",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Servicos de dialise e nefrologia (clinicas medicas)"
+  },
+  {
+    "CÓDIGO": "0403",
+    "CNAE": "Q861010100",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Atividades de atendimento hospitalar, exceto pronto-socorro e unidades para atendimento a urgencias (Institucional em Geral-INS-G)"
+  },
+  {
+    "CÓDIGO": "0403",
+    "CNAE": "Q861010200",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Atividades de atendimento em pronto-socorro e unidades hospitalares para atendimento a urgencias"
+  },
+  {
+    "CÓDIGO": "0403",
+    "CNAE": "Q863050100",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Atividade medica ambulatorial com recursos para realizacao de procedimentos cirurgicos"
+  },
+  {
+    "CÓDIGO": "0403",
+    "CNAE": "Q863050200",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Atividade medica ambulatorial com recursos para realizacao de exames complementares"
+  },
+  {
+    "CÓDIGO": "0403",
+    "CNAE": "Q863050600",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Servicos de vacinacao e imunizacao humana"
+  },
+  {
+    "CÓDIGO": "0403",
+    "CNAE": "Q864020100",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Laboratorios de anatomia patologica e citologia"
+  },
+  {
+    "CÓDIGO": "0403",
+    "CNAE": "Q864020200",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Laboratorios clinicos"
+  },
+  {
+    "CÓDIGO": "0403",
+    "CNAE": "Q864020900",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Servicos de diagnostico por metodos opticos - endoscopia e outros exames analogos"
+  },
+  {
+    "CÓDIGO": "0403",
+    "CNAE": "Q864021300",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Servicos de litotripsia"
+  },
+  {
+    "CÓDIGO": "0403",
+    "CNAE": "Q865009900",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Atividades de profissionais da area de saude nao especificadas anteriormente"
+  },
+  {
+    "CÓDIGO": "0403",
+    "CNAE": "Q866070000",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Atividades de apoio a gestao de saude"
+  },
+  {
+    "CÓDIGO": "0403",
+    "CNAE": "Q869099900",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Outras atividades de atencao a saude humana nao especificadas anteriormente"
+  },
+  {
+    "CÓDIGO": "0405",
+    "CNAE": "Q869090300",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Atividades de acupuntura"
+  },
+  {
+    "CÓDIGO": "0405",
+    "CNAE": "Q869090400",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Atividades de podologia"
+  },
+  {
+    "CÓDIGO": "0405",
+    "CNAE": "Q869090100",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Atividades de praticas integrativas e complementares em saude humana"
+  },
+  {
+    "CÓDIGO": "0406",
+    "CNAE": "Q865000100",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Atividades de enfermagem"
+  },
+  {
+    "CÓDIGO": "0408",
+    "CNAE": "Q865000400",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Atividades de fisioterapia"
+  },
+  {
+    "CÓDIGO": "0408",
+    "CNAE": "Q865000500",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Atividades de terapia ocupacional"
+  },
+  {
+    "CÓDIGO": "0408",
+    "CNAE": "Q865000600",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Atividades de fonoaudiologia"
+  },
+  {
+    "CÓDIGO": "0409",
+    "CNAE": "Q865000700",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Atividades de terapia de nutricao enteral e parenteral"
+  },
+  {
+    "CÓDIGO": "0409",
+    "CNAE": "Q871230000",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Atividades de fornecimento de infra-estrutura de apoio e assistencia a paciente no domicilio"
+  },
+  {
+    "CÓDIGO": "0409",
+    "CNAE": "Q871150300",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Atividades de assistencia a deficientes fisicos, imunodeprimidos e convalescentes"
+  },
+  {
+    "CÓDIGO": "0409",
+    "CNAE": "Q871150400",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Centros de apoio a pacientes com cancer e com AIDS"
+  },
+  {
+    "CÓDIGO": "0409",
+    "CNAE": "Q872040100",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Atividades de centros de assistencia psicossocial"
+  },
+  {
+    "CÓDIGO": "0409",
+    "CNAE": "Q872049900",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Atividades de assistencia psicossocial e a saude a portadores de disturbios psiquicos,deficiencia mental e dependencia quimica nao espec anteriormente"
+  },
+  {
+    "CÓDIGO": "0409",
+    "CNAE": "Q873019900",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Atividades de assistencia social prestadas em residencias coletivas e particulares não especificadas anteriormente"
+  },
+  {
+    "CÓDIGO": "0410",
+    "CNAE": "Q865000200",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Atividades de profissionais da nutricao"
+  },
+  {
+    "CÓDIGO": "0412",
+    "CNAE": "Q863050400",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Atividade odontologica"
+  },
+  {
+    "CÓDIGO": "0414",
+    "CNAE": "C325070600",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Servicos de protese dentaria"
+  },
+  {
+    "CÓDIGO": "0416",
+    "CNAE": "Q865000300",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Atividades de psicologia e psicanalise"
+  },
+  {
+    "CÓDIGO": "0417",
+    "CNAE": "Q871150200",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Instituicoes de longa permanencia para idosos"
+  },
+  {
+    "CÓDIGO": "0417",
+    "CNAE": "Q871150500",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Condominios residenciais para idosos"
+  },
+  {
+    "CÓDIGO": "0417",
+    "CNAE": "Q873010100",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Orfanatos"
+  },
+  {
+    "CÓDIGO": "0417",
+    "CNAE": "Q871150100",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Clinicas e residencias geriatricas"
+  },
+  {
+    "CÓDIGO": "0418",
+    "CNAE": "Q863050700",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Atividades de reproducao humana assistida"
+  },
+  {
+    "CÓDIGO": "0419",
+    "CNAE": "Q864021400",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Servicos de bancos de celulas e tecidos humanos"
+  },
+  {
+    "CÓDIGO": "0419",
+    "CNAE": "Q869090200",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Atividades de bancos de leite humano"
+  },
+  {
+    "CÓDIGO": "0420",
+    "CNAE": "Q864021200",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Servicos de hemoterapia"
+  },
+  {
+    "CÓDIGO": "0421",
+    "CNAE": "Q862160100",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "UTI movel"
+  },
+  {
+    "CÓDIGO": "0421",
+    "CNAE": "Q862160200",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Servicos moveis de atendimento a urgencias, exceto por UTI movel"
+  },
+  {
+    "CÓDIGO": "0501",
+    "CNAE": "M750010000",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Atividades veterinarias (somente consultorio medico veterinario)"
+  },
+  {
+    "CÓDIGO": "0504",
+    "CNAE": "A016280100",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Servico de inseminacao artificial em animais"
+  },
+  {
+    "CÓDIGO": "0508",
+    "CNAE": "A016280200",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Servico de tosquiamento de ovinos"
+  },
+  {
+    "CÓDIGO": "0508",
+    "CNAE": "A016280300",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Servico de manejo de animais"
+  },
+  {
+    "CÓDIGO": "0508",
+    "CNAE": "N801110200",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Servicos de adestramento de caes de guarda"
+  },
+  {
+    "CÓDIGO": "0508",
+    "CNAE": "S960920700",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Alojamento de animais domesticos"
+  },
+  {
+    "CÓDIGO": "0508",
+    "CNAE": "S960920800",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Higiene e embelezamento de animais domesticos - sem alojamento"
+  },
+  {
+    "CÓDIGO": "0601",
+    "CNAE": "S960250100",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Cabeleireiros, manicure e pedicure"
+  },
+  {
+    "CÓDIGO": "0603",
+    "CNAE": "S960920400",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Exploracao de maquinas de servicos pessoais acionadas por moeda"
+  },
+  {
+    "CÓDIGO": "0603",
+    "CNAE": "S960920500",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Atividades de sauna e banhos"
+  },
+  {
+    "CÓDIGO": "0604",
+    "CNAE": "P859110000",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Ensino de esportes"
+  },
+  {
+    "CÓDIGO": "0604",
+    "CNAE": "P859290100",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Ensino de danca"
+  },
+  {
+    "CÓDIGO": "0604",
+    "CNAE": "R931310000",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Atividades de condicionamento fisico"
+  },
+  {
+    "CÓDIGO": "0606",
+    "CNAE": "S960920600",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Servicos de tatuagem e colocacao de piercing"
+  },
+  {
+    "CÓDIGO": "0701",
+    "CNAE": "M711110000",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Servicos de arquitetura"
+  },
+  {
+    "CÓDIGO": "0701",
+    "CNAE": "N813030000",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "SIM",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Atividades paisagisticas (servicos de arquitetura)"
+  },
+  {
+    "CÓDIGO": "0701",
+    "CNAE": "M749010300",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Servicos de agronomia e de consultoria as atividades agricolas e pecuarias"
+  },
+  {
+    "CÓDIGO": "0701",
+    "CNAE": "M711200000",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Servicos de engenharia"
+  },
+  {
+    "CÓDIGO": "0701",
+    "CNAE": "M711979900",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Atividades tecnicas relacionadas a engenharia e arquitetura nao especificadas anteriormente"
+  },
+  {
+    "CÓDIGO": "0702",
+    "CNAE": "F412040000",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "SIM",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Construcao de edificios"
+  },
+  {
+    "CÓDIGO": "0702",
+    "CNAE": "F421110100",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "SIM",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Construcao de rodovias e ferrovias"
+  },
+  {
+    "CÓDIGO": "0702",
+    "CNAE": "F422190100",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "SIM",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Construcao de barragens e represas para geracao de energia eletrica"
+  },
+  {
+    "CÓDIGO": "0702",
+    "CNAE": "F422190200",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "SIM",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Construcao de estacoes e redes de distribuicao de energia eletrica"
+  },
+  {
+    "CÓDIGO": "0702",
+    "CNAE": "F422190400",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "SIM",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Construcao de estacoes e redes de telecomunicacoes"
+  },
+  {
+    "CÓDIGO": "0702",
+    "CNAE": "F422270100",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "SIM",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Construcao de redes de abastecimento de agua, coleta de esgoto e construcoes correlatas, exceto obras de irrigacao"
+  },
+  {
+    "CÓDIGO": "0702",
+    "CNAE": "F422350000",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "SIM",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Construcao de redes de transportes por dutos, exceto para agua e esgoto"
+  },
+  {
+    "CÓDIGO": "0702",
+    "CNAE": "F429950100",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "SIM",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Construcao de instalacoes esportivas e recreativas"
+  },
+  {
+    "CÓDIGO": "0702",
+    "CNAE": "F431180200",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "SIM",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Preparacao de canteiro e limpeza de terreno"
+  },
+  {
+    "CÓDIGO": "0702",
+    "CNAE": "F431260000",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "SIM",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Perfuracoes e sondagens"
+  },
+  {
+    "CÓDIGO": "0702",
+    "CNAE": "F431930000",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "SIM",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Servicos de preparacao do terreno nao especificados anteriormente"
+  },
+  {
+    "CÓDIGO": "0702",
+    "CNAE": "F439910500",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "SIM",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Perfuracao e construcao de pocos de agua"
+  },
+  {
+    "CÓDIGO": "0702",
+    "CNAE": "F439910100",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Administracao de obras"
+  },
+  {
+    "CÓDIGO": "0702",
+    "CNAE": "F433049900",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "SIM",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Outras obras de acabamento da construcao"
+  },
+  {
+    "CÓDIGO": "0702",
+    "CNAE": "F432230100",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "SIM",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Instalacoes hidraulicas, sanitarias e de gas"
+  },
+  {
+    "CÓDIGO": "0702",
+    "CNAE": "F432230200",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "SIM",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Instalacao e manutencao de sistemas centrais de ar condicionado, de ventilacao e refrigeracao"
+  },
+  {
+    "CÓDIGO": "0702",
+    "CNAE": "F432230300",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "SIM",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Instalacoes de sistema de prevencao contra incendio"
+  },
+  {
+    "CÓDIGO": "0702",
+    "CNAE": "F432910500",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "SIM",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Tratamentos termicos, acusticos ou de vibracao"
+  },
+  {
+    "CÓDIGO": "0702",
+    "CNAE": "F432919900",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "SIM",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Outras obras de instalacoes em construcoes nao especificadas anteriormente"
+  },
+  {
+    "CÓDIGO": "0702",
+    "CNAE": "F433040200",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "SIM",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Instalacao de portas, janelas, tetos, divisorias e armarios embutidos de qualquer material"
+  },
+  {
+    "CÓDIGO": "0702",
+    "CNAE": "F433040400",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "SIM",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Servicos de pintura de edificios em geral"
+  },
+  {
+    "CÓDIGO": "0702",
+    "CNAE": "F429280100",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "SIM",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Montagem de estruturas metalicas"
+  },
+  {
+    "CÓDIGO": "0703",
+    "CNAE": "F429959900",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "SIM",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Outras obras de engenharia civil nao especificadas anteriormente"
+  },
+  {
+    "CÓDIGO": "0703",
+    "CNAE": "F439919900",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "SIM",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Servicos especializados para construcao nao especificados anteriormente"
+  },
+  {
+    "CÓDIGO": "0704",
+    "CNAE": "F431180100",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "SIM",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Demolicao de edificios e outras estruturas"
+  },
+  {
+    "CÓDIGO": "0705",
+    "CNAE": "F421110200",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Pintura para sinalizacao em pistas rodoviarias e aeroportos"
+  },
+  {
+    "CÓDIGO": "0706",
+    "CNAE": "F433040500",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "SIM",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Aplicacao de revestimentos e de resinas em interiores e exteriores"
+  },
+  {
+    "CÓDIGO": "0708",
+    "CNAE": "F433040100",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "SIM",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Impermeabilizacao em obras de engenharia civil"
+  },
+  {
+    "CÓDIGO": "0709",
+    "CNAE": "E381140000",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Coleta de residuos nao-perigosos"
+  },
+  {
+    "CÓDIGO": "0709",
+    "CNAE": "E381220000",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Coleta de residuos perigosos"
+  },
+  {
+    "CÓDIGO": "0710",
+    "CNAE": "R910230200",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Restauracao e conservacao de lugares e predios historicos"
+  },
+  {
+    "CÓDIGO": "0710",
+    "CNAE": "N812140000",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "SIM",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Limpeza em predios e em domicilios"
+  },
+  {
+    "CÓDIGO": "0710",
+    "CNAE": "N812900000",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "SIM",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Atividades de limpeza nao especificadas anteriormente"
+  },
+  {
+    "CÓDIGO": "0711",
+    "CNAE": "A016100200",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Servico de poda de arvores para lavouras"
+  },
+  {
+    "CÓDIGO": "0711",
+    "CNAE": "M741020200",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "SIM",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Design de interiores"
+  },
+  {
+    "CÓDIGO": "0712",
+    "CNAE": "E370290000",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "SIM",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Atividades relacionadas a esgoto, exceto a gestao de redes"
+  },
+  {
+    "CÓDIGO": "0712",
+    "CNAE": "E370110000",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Gestao de redes de esgoto"
+  },
+  {
+    "CÓDIGO": "0712",
+    "CNAE": "E382110000",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Tratamento e disposicao de residuos nao-perigosos"
+  },
+  {
+    "CÓDIGO": "0712",
+    "CNAE": "E382200000",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Tratamento e disposicao de residuos perigosos"
+  },
+  {
+    "CÓDIGO": "0712",
+    "CNAE": "E390050000",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Descontaminacao e outros servicos de gestao de residuos"
+  },
+  {
+    "CÓDIGO": "0713",
+    "CNAE": "N812220000",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "SIM",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Imunizacao e controle de pragas urbanas"
+  },
+  {
+    "CÓDIGO": "0713",
+    "CNAE": "A016100100",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Servico de pulverizacao e controle de pragas agricolas"
+  },
+  {
+    "CÓDIGO": "0716",
+    "CNAE": "A016360000",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Atividades de pos-colheita"
+  },
+  {
+    "CÓDIGO": "0716",
+    "CNAE": "A022090600",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Conservacao de florestas nativas"
+  },
+  {
+    "CÓDIGO": "0716",
+    "CNAE": "A023060000",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Atividades de apoio a producao florestal"
+  },
+  {
+    "CÓDIGO": "0716",
+    "CNAE": "A016109900",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Atividades de apoio a agricultura nao especificadas anteriormente"
+  },
+  {
+    "CÓDIGO": "0720",
+    "CNAE": "M711970100",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Servicos de cartografia, topografia e geodesia"
+  },
+  {
+    "CÓDIGO": "0720",
+    "CNAE": "M711970200",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Atividades de estudos geologicos"
+  },
+  {
+    "CÓDIGO": "0721",
+    "CNAE": "A032130500",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Atividades de apoio a aquicultura em agua salgada e salobra"
+  },
+  {
+    "CÓDIGO": "0721",
+    "CNAE": "M749010200",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Escafandria e mergulho"
+  },
+  {
+    "CÓDIGO": "0801",
+    "CNAE": "P851120000",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Educacao infantil - creche (privada)"
+  },
+  {
+    "CÓDIGO": "0801",
+    "CNAE": "P851210000",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Educacao infantil - pre-escola (privada)"
+  },
+  {
+    "CÓDIGO": "0801",
+    "CNAE": "P851390000",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Ensino fundamental (privada)"
+  },
+  {
+    "CÓDIGO": "0801",
+    "CNAE": "P852010000",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Ensino medio (privada)"
+  },
+  {
+    "CÓDIGO": "0801",
+    "CNAE": "P853170000",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Educacao superior - graduacao (privada)"
+  },
+  {
+    "CÓDIGO": "0801",
+    "CNAE": "P853250000",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Educacao superior - graduacao e pos-graduacao"
+  },
+  {
+    "CÓDIGO": "0801",
+    "CNAE": "P853330000",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Educacao superior - pos-graduacao e extensao (privada)"
+  },
+  {
+    "CÓDIGO": "0802",
+    "CNAE": "P859960200",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Cursos de pilotagem"
+  },
+  {
+    "CÓDIGO": "0802",
+    "CNAE": "P854140000",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Educacao profissional de nivel tecnico"
+  },
+  {
+    "CÓDIGO": "0802",
+    "CNAE": "P859290200",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Ensino de artes cenicas, exceto danca"
+  },
+  {
+    "CÓDIGO": "0802",
+    "CNAE": "P859290300",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Ensino de musica"
+  },
+  {
+    "CÓDIGO": "0802",
+    "CNAE": "P859299900",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Ensino de arte e cultura nao especificado anteriormente"
+  },
+  {
+    "CÓDIGO": "0802",
+    "CNAE": "P859370000",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Ensino de idiomas"
+  },
+  {
+    "CÓDIGO": "0802",
+    "CNAE": "P859960100",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Formacao de condutores"
+  },
+  {
+    "CÓDIGO": "0802",
+    "CNAE": "P859960300",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Treinamento em informatica"
+  },
+  {
+    "CÓDIGO": "0802",
+    "CNAE": "P859960400",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Treinamento em desenvolvimento profissional e gerencial"
+  },
+  {
+    "CÓDIGO": "0802",
+    "CNAE": "P859969900",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Outras atividades de ensino nao especificadas anteriormente"
+  },
+  {
+    "CÓDIGO": "0802",
+    "CNAE": "P854220000",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Educacao profissional de nivel tecnologico"
+  },
+  {
+    "CÓDIGO": "0802",
+    "CNAE": "P855030200",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Atividades de apoio a educacao, exceto caixas escolares"
+  },
+  {
+    "CÓDIGO": "0802",
+    "CNAE": "P859960500",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Cursos preparatorios para concursos"
+  },
+  {
+    "CÓDIGO": "0901",
+    "CNAE": "I559060200",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Campings"
+  },
+  {
+    "CÓDIGO": "0901",
+    "CNAE": "I559060300",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Pensoes (alojamento)"
+  },
+  {
+    "CÓDIGO": "0901",
+    "CNAE": "I559069900",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Outros alojamentos nao especificados anteriormente"
+  },
+  {
+    "CÓDIGO": "0901",
+    "CNAE": "I551080100",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Hoteis"
+  },
+  {
+    "CÓDIGO": "0902",
+    "CNAE": "H492990300",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Organizacao de excursoes em veiculos rodoviarios proprios, municipal"
+  },
+  {
+    "CÓDIGO": "0902",
+    "CNAE": "H492990400",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Organizacao de excursoes em veiculos rodoviarios proprios, intermunicipal, interestadual e internacional"
+  },
+  {
+    "CÓDIGO": "0902",
+    "CNAE": "N791120000",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Agencias de viagens"
+  },
+  {
+    "CÓDIGO": "0902",
+    "CNAE": "N799020000",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Servicos de reservas e outros servicos de turismo nao especificados anteriormente"
+  },
+  {
+    "CÓDIGO": "0903",
+    "CNAE": "N791210000",
+    "ANEXO 3": "SIM",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "NÃO",
+    "FATOR R": "NÃO",
+    "DESCRIÇÃO": "Operadores turisticos"
+  },
+  {
+    "CÓDIGO": "3201",
+    "CNAE": "M711970300",
+    "ANEXO 3": "NÃO",
+    "ANEXO 4": "NÃO",
+    "ANEXO 5": "SIM",
+    "FATOR R": "SIM",
+    "DESCRIÇÃO": "Servicos de desenho tecnico relacionados a arquitetura e engenharia"
+
+  }
+]

@@ -1,4 +1,6 @@
 import {ValoresServico} from "./Valores"
+import { getItemServico } from '../functions/Gerais/get-item-servico'
+
 
 class Servico{
     Valores: ValoresServico;
@@ -41,7 +43,23 @@ class Servico{
             this.CodigoCnae = '0' + item_lista_servico[4];
             this.CodigoTributacaoMunicipio = this.ItemListaServico + this.CodigoCnae;
         }
-        //else if (len == 9 --> pesquisa cnae)
+        else if (item_lista_servico.length == 9){
+            let cnae = item_lista_servico
+
+            item_lista_servico = getItemServico(cnae) as string;
+
+            this.ItemListaServico = item_lista_servico;
+
+            if (item_lista_servico == 'error'){
+                this.CodigoCnae = 'error'
+                this.CodigoTributacaoMunicipio = 'error'
+            }
+            else {
+                this.CodigoCnae = '00';
+                this.CodigoTributacaoMunicipio = this.ItemListaServico + this.CodigoCnae;
+            }
+
+        }
         else{
             this.ItemListaServico = 'error';
             this.CodigoCnae = 'error';
