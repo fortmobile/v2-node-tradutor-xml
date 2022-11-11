@@ -12,7 +12,7 @@ async function getEnderecoTomador(json_object: object){
 
 
         var endereco = base_path['TomadorEndereco' as jsonKeys2] as string;
-        var numero = base_path['TomadorNumero' as jsonKeys2] as number;    
+        var numero = base_path['TomadorNumero' as jsonKeys2] as string;    
         
         if (base_path['TomadorComplemento' as jsonKeys2]){
             var complemento = base_path['TomadorComplemento' as jsonKeys2] as string;
