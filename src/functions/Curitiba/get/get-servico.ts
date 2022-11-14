@@ -69,6 +69,7 @@ async function getServico(json_object: object){
             var municipio_incidencia = json_object['Nfse' as jsonKeys]['InfNfse' as jsonKeys]['TomadorServico' as jsonKeys2]['Endereco' as jsonKeys2]['CodigoMunicipio' as jsonKeys2] as number;
             if (municipio_incidencia == 0){
                 municipio_incidencia = 9999999;
+                exigibilidade_iss = 4;
             }
         }
         else{
