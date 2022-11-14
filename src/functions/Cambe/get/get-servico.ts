@@ -35,6 +35,8 @@ async function getServico(json_object: object){
 
     var cod_municipio = base_path['municipioPrestacao'] as number;
 
+    // VER SE TIPO DEDUÇÃO TEM RELAÇAO COM EXIGI ISS
+
 }
 
 export { getServico }
