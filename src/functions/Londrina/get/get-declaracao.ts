@@ -14,7 +14,7 @@ async function getDeclaracao(json_object: object, servico: Servico, prestador: P
     type jsonKeys3 = keyof typeof base_path3;  
     type jsonKeys4 = keyof typeof base_path4;
 
-    var competencia = base_path3['Competencia' as jsonKeys3] as string;
+    var competencia = base_path4['Competencia' as jsonKeys3] as string;
     
     if (base_path2['RegimeEspecialTributacao' as jsonKeys2]){
         var regime_especial_tributacao = base_path2['RegimeEspecialTributacao' as jsonKeys2] as number;

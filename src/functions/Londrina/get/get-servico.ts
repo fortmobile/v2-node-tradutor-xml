@@ -41,7 +41,12 @@ async function getServico(json_object: object){
 
         var cod_municipio = base_path['CodigoMunicipio' as jsonKeys2] as number;
 
-        var exigibilidade_iss = base_path['ExigibilidadeISS' as jsonKeys2] as number; // VER EXIGIBILIDADE
+        if (base_path['TomadorTipo' as jsonKeys2] as number == 5){
+            var exigibilidade_iss = 4
+        }
+        else{
+            var exigibilidade_iss = base_path['ExigibilidadeISS' as jsonKeys2] as number; 
+        }
 
         var municipio_incidencia = base_path['MunicipioIncidencia' as jsonKeys2] as number;
 
