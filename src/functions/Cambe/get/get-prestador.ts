@@ -6,7 +6,7 @@ import { Contato } from '../../../models/Contato';
 async function getPrestador(json_object: object){
     try{
         type jsonKeys = keyof typeof json_object;
-        var base_path = json_object['espelhoNFSe' as jsonKeys]['NFSe' as jsonKeys]['dadosNFSe' as jsonKeys]['dadosPrestador']
+        var base_path = json_object['espelhoNFSe' as jsonKeys]['NFSe' as jsonKeys]['dadosNFSe' as jsonKeys]['dadosPrestador' as jsonKeys]
         type jsonKeys2 = keyof typeof base_path;
 
         var cnpj = base_path['prestadorCNPJ' as jsonKeys2] as string;
