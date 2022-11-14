@@ -2,7 +2,7 @@ var fs = require('fs');
 const path = require('path')
 const { XMLBuilder } = require("fast-xml-parser");
 
-import {parseXml} from './parse-xml';
+import {parseXml} from '../Gerais/parse-xml';
 import { mudarDataTypes } from "./mudar-dataTypes";
 import { dividirXML } from './dividir-xml';
 import { getValoresNfse } from './get/get-valores-nfse';

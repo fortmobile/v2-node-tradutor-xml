@@ -10,5 +10,4 @@ async function parseXml(xml_file: string): Promise<object>{
 
     return json_object;
 }
-
 export {parseXml};

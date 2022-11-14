@@ -2,7 +2,7 @@ const fs = require('fs')
 const { XMLBuilder } = require("fast-xml-parser");
 
 import {mudarDataTypes} from './mudar-dataTypes';
-import {parseXml} from './parse-xml';
+import {parseXml} from '../Gerais/parse-xml';
 import {getPrestador} from './get/get-prestador';
 import {getTomador} from './get/get-tomador';
 import {getServico} from './get/get-servico';
