@@ -52,13 +52,12 @@ async function getPrestador(json_object: object){
             var nome_fantasia = '';
         }
 
-        // Montar Classe
+
         if (base_path['prestadorTelefone' as jsonKeys2] || base_path['prestadorEmail' as jsonKeys2]){
             var email = base_path['prestadorEmail' as jsonKeys2] as string;
             var telefone = base_path['prestadorTelefone' as jsonKeys2] as string;
             var contato = new Contato(email, telefone);
 
-            console.log(contato)
             var prestador = new Prestador(identificacao_prestador, razao_social, endereco_prestador, nome_fantasia, contato);
        
         } else {

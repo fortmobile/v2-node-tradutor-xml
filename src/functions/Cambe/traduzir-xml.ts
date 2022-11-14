@@ -17,8 +17,10 @@ async function traduzirXMLCambe(xml_file_path: string){
         var valores_nfse = await getValoresNfse(parsed_xml);
         
         var prestador = await getPrestador(parsed_xml);
-        console.log(prestador)
-        var tomador = await getTomador(parsed_xml)
+        var tomador = await getTomador(parsed_xml);
+        console.log(tomador)
+
+        fs.unlinkSync(new_xml);
 
 
     } catch (error) {
