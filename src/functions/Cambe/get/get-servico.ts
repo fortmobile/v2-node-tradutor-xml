@@ -1,3 +1,4 @@
+import { Servico } from "../../../models/Servico";
 import { ValoresServico } from "../../../models/Valores";
 
 async function getServico(json_object: object){
@@ -14,14 +15,9 @@ async function getServico(json_object: object){
     var valor_csll = base_path['valorCSLL' as jsonKeys2] as number;
     var outras_retencoes = 0;
     
-    if (base_path['ISSRetido'] == true){
-        var valor_iss = base_path['valorISSRetido' as jsonKeys2] as number; // CONFERIR BRUNO
-        var iss_retido = true;
-    }
-    else {
-        var valor_iss = 0;
-        var iss_retido = false;
-    }
+    var valor_iss = base_path['valorISS' as jsonKeys2] as number;
+    var iss_retido = base_path['ISSRetido'] as boolean;
+
 
     var aliquota = base_path['aliquota' as jsonKeys2] as number;
     var desc_inc = 0;
@@ -35,10 +31,18 @@ async function getServico(json_object: object){
 
     var cod_municipio = base_path['municipioPrestacao'] as number;
 
-    // VER SE TIPO DEDUÇÃO TEM RELAÇAO COM EXIGI ISS
+    if (json_object['espelhoNFSe' as jsonKeys]['NFSe' as jsonKeys]['dadosNFSe' as jsonKeys]['dadosTomador' as jsonKeys]['tipoTomador' as jsonKeys] as number == 5){
+        var exigibilidade_iss = 4;
+    }
+    else{
+        var exigibilidade_iss = 1;
+    }
 
-    return servico;
+    var municipio_incidencia = base_path['municipioIncidencia' as jsonKeys2] as number;
 
+    var servico = new Servico(valores_servico, iss_retido, item_lista_servico, discriminacao, cod_municipio, exigibilidade_iss, municipio_incidencia)
+
+    return(servico) as Servico;
 }
 
 export { getServico }

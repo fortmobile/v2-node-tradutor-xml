@@ -4,6 +4,7 @@ const { XMLBuilder } = require("fast-xml-parser");
 import { Prestador, Tomador } from "../../models/PrestadorTomador";
 import { Servico } from "../../models/Servico";
 import { parseXml } from "../Gerais/parse-xml";
+import { statusNfse } from "./get/status-nfse";
 import { getDeclaracao } from "./get/get-declaracao";
 import { getInfNfse } from "./get/get-infnse";
 import { getOrgaoGerador } from "./get/get-orgao-gerador";
@@ -12,8 +13,10 @@ import { getServico } from "./get/get-servico";
 import { getTomador } from "./get/get-tomador";
 import { getValoresNfse } from "./get/get-valores-nfse";
 import { mudarDataTypes } from "./mudar-dataTypes";
+import { getCancelada } from "./get/get-cancelada";
+import { Xml_Nfse } from "../../models/Xml-Nfse";
 
-async function traduzirXMLCambe(xml_file_path: string){
+async function traduzirXMLCambe(xml_file_path: string, xml_file_name: string, folder_name: string){
     try {
         var new_xml = await mudarDataTypes(xml_file_path);
 
@@ -26,19 +29,38 @@ async function traduzirXMLCambe(xml_file_path: string){
 
         var servico = await getServico(parsed_xml) as Servico;
 
-        var declaracao = await getDeclaracao(parsed_xml, servico, prestador, tomador);
+        var declaracao_prestacao = await getDeclaracao(parsed_xml, servico, prestador, tomador);
 
         var orgao_gerador = await getOrgaoGerador(parsed_xml);
 
         var infnfse = await getInfNfse(parsed_xml, valores_nfse, prestador, orgao_gerador, declaracao_prestacao);
+        
+        var cancelada = await statusNfse(parsed_xml) as boolean;
 
+        if (cancelada == true){
+            var dados_cancelamento = await getCancelada(parsed_xml)
+            var xml_nfse = new Xml_Nfse(infnfse, dados_cancelamento);
+        }
+        else{
+            var xml_nfse = new Xml_Nfse(infnfse)
+        }
 
+        const builder = new XMLBuilder();
+        var xmlContent = builder.build(xml_nfse).toString()
+
+        xmlContent = await xmlContent.replace('<Nfse>', '<Nfse versao="2.01">')
+        xmlContent = await xmlContent.replace('<ConsultarNfseServicoPrestadoResposta>', '<ConsultarNfseServicoPrestadoResposta xmlns="http://www.abrasf.org.br/nfse.xsd">')
+        xmlContent = await xmlContent.replace('<NfseCancelamento>', '<NfseCancelamento versao="2.01">')
+        
+        fs.writeFileSync(`${folder_name}/${xml_file_name}`, xmlContent);
+        
         fs.unlinkSync(new_xml);
+        
+        return({message: 'xml convertido com sucesso'});
 
-
-    } catch (error) {
-        console.log(error)
+    } catch(error){
+        return ({message: 'erro ao converter xml'})
     }
 }
 
-traduzirXMLCambe('../../../xmls/cambe/cambe1.xml')
+export { traduzirXMLCambe }

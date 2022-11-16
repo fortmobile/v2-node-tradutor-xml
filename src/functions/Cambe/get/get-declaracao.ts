@@ -6,10 +6,10 @@ import { Rps } from "../../../models/Rps";
 
 async function getDeclaracao(json_object: object, servico: Servico, prestador: Prestador, tomador: Tomador) {
     type jsonKeys = keyof typeof json_object;
-    var base_path = json_object['espelhoNFSe' as jsonKeys]['NFSe' as jsonKeys]['identificacaoNFSe' as jsonKeys];
+    var base_path = json_object['espelhoNFSe' as jsonKeys]['NFSe' as jsonKeys];
     type jsonKeys2 = keyof typeof base_path;
 
-    var competencia = base_path['dataEmissao' as jsonKeys2] as string;
+    var competencia = base_path['identificacaoNFSe' as jsonKeys]['dataEmissao' as jsonKeys2] as string;
 
     var regime_especial_tributacao = 6;
 

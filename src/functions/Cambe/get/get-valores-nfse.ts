@@ -9,12 +9,8 @@ async function getValoresNfse(json_object: object){
 
     var aliquota = base_path['aliquota' as jsonKeys2];
 
-    if(base_path['valorISS' as jsonKeys2]){
-        var valor_iss = base_path['valorISS' as jsonKeys2] as number;
-    }else{
-        var valor_iss = 0;
-    }
-
+    var valor_iss = base_path['valorISS' as jsonKeys2] as number;
+    
     var valor_liquido =  base_path['valorLiquidoNFSe' as jsonKeys2] as number;
 
     var valores_nfse = new ValoresNfse(base_calculo, aliquota, valor_iss, valor_liquido);
