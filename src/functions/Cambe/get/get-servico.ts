@@ -37,6 +37,8 @@ async function getServico(json_object: object){
 
     // VER SE TIPO DEDUÇÃO TEM RELAÇAO COM EXIGI ISS
 
+    return servico;
+
 }
 
 export { getServico }
