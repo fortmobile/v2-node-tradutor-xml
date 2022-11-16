@@ -7,7 +7,7 @@ class Endereco{
     Cep?: string;
     Complemento?: string;
 
-    constructor(endereco: string, numero: string, bairro: string, codigo_municipio: number, uf: string, cep: string, complemento?: string){
+    constructor(endereco: string | undefined, numero: string | undefined, bairro: string | undefined, codigo_municipio: number, uf: string | undefined, cep: string | undefined, complemento?: string | undefined){
         if(endereco !== '' &&  endereco !== undefined){
             this.Endereco = endereco;
         }
@@ -20,7 +20,7 @@ class Endereco{
             this.Complemento = complemento;
         }
         
-        if (bairro != ''){
+        if (bairro != '' && bairro != undefined){
             this.Bairro = bairro;
         }
         
