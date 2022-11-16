@@ -11,10 +11,10 @@ class DeclaracaoPrestacaoServico{
         Tomador: Tomador;
         RegimeEspecialTributacao: number;
         OptanteSimplesNacional: number; 
-        IncentivoFiscal: number
+        IncentivoFiscal?: number
     }
 
-    constructor(Competencia: string, Servico: Servico, Prestador: Prestador, Tomador: Tomador, RegimeEspecialTributacao: number, optante_simples_nacional: boolean, incentivo_fiscal: boolean, Rps?: Rps){
+    constructor(Competencia: string, Servico: Servico, Prestador: Prestador, Tomador: Tomador, RegimeEspecialTributacao: number, optante_simples_nacional: boolean, incentivo_fiscal: boolean | undefined, Rps?: Rps){
         this.InfDeclaracaoPrestacaoServico = {
             Competencia,
             Servico,
@@ -45,7 +45,7 @@ class DeclaracaoPrestacaoServico{
         if (incentivo_fiscal == true){
             this.InfDeclaracaoPrestacaoServico.IncentivoFiscal = 1;
         }
-        else{
+        else if (incentivo_fiscal == false){
             this.InfDeclaracaoPrestacaoServico.IncentivoFiscal = 2;
         }
 
