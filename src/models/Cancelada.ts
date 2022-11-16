@@ -7,8 +7,8 @@ class Cancelada{
                     CpfCnpj: {
                         Cnpj: string;
                     }
-                    InscricaoMunicipal: string;
-                    CodigoMunicipio: number;
+                    InscricaoMunicipal?: string;
+                    CodigoMunicipio?: number;
                 }
                 CodigoCancelamento: number;
             }
@@ -16,7 +16,7 @@ class Cancelada{
         DataHora: string
     }
     
-    constructor(Numero: number, Cnpj: string, InscricaoMunicipal: string, CodigoMunicipio: number, CodigoCancelamento: number, DataHora: string){
+    constructor(Numero: number, Cnpj: string, InscricaoMunicipal: string | undefined, CodigoMunicipio: number | undefined, CodigoCancelamento: number, DataHora: string){
         this.Confirmacao = {
                 Pedido: {
                     InfPedidoCancelamento: {
@@ -24,9 +24,7 @@ class Cancelada{
                             Numero,
                             CpfCnpj: {
                                 Cnpj
-                            },
-                            InscricaoMunicipal,
-                            CodigoMunicipio
+                            }
                         },
                         CodigoCancelamento,
                     }
@@ -36,8 +34,16 @@ class Cancelada{
 
         this.Confirmacao.Pedido.InfPedidoCancelamento.IdentificacaoNfse.Numero = Numero;
         this.Confirmacao.Pedido.InfPedidoCancelamento.IdentificacaoNfse.CpfCnpj.Cnpj = Cnpj;
-        this.Confirmacao.Pedido.InfPedidoCancelamento.IdentificacaoNfse.InscricaoMunicipal = InscricaoMunicipal;
-        this.Confirmacao.Pedido.InfPedidoCancelamento.IdentificacaoNfse.CodigoMunicipio = CodigoMunicipio;
+
+        if (InscricaoMunicipal != undefined){
+            this.Confirmacao.Pedido.InfPedidoCancelamento.IdentificacaoNfse.InscricaoMunicipal = InscricaoMunicipal;            
+        }
+
+
+        if (CodigoMunicipio != undefined){
+            this.Confirmacao.Pedido.InfPedidoCancelamento.IdentificacaoNfse.CodigoMunicipio = CodigoMunicipio;            
+        }
+
         this.Confirmacao.Pedido.InfPedidoCancelamento.CodigoCancelamento = CodigoCancelamento;
         this.Confirmacao.DataHora = DataHora;
     }

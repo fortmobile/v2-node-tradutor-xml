@@ -10,18 +10,22 @@ class InfNfse {
     ValoresNfse: ValoresNfse;
     ValorCredito: number;
     PrestadorServico: Prestador;
-    OrgaoGerador: OrgaoGerador;
+    OrgaoGerador?: OrgaoGerador;
     DeclaracaoPrestacaoServico: DeclaracaoPrestacaoServico;
 
     constructor(numero: number, codigo_verificacao: string, data_emissao: string, valores_Nfse: ValoresNfse, valor_credito: number, 
-    prestador_servico: Prestador, orgao_gerador: OrgaoGerador, declaracao_prestacao_servico: DeclaracaoPrestacaoServico){
+    prestador_servico: Prestador, orgao_gerador: OrgaoGerador | undefined, declaracao_prestacao_servico: DeclaracaoPrestacaoServico){
         this.Numero = numero;
         this.CodigoVerificacao = codigo_verificacao;
         this.DataEmissao = data_emissao;
         this.ValoresNfse = valores_Nfse;
         this.ValorCredito = valor_credito;
         this.PrestadorServico = prestador_servico;
-        this.OrgaoGerador = orgao_gerador;
+
+        if (orgao_gerador == undefined){
+            this.OrgaoGerador = orgao_gerador;            
+        }
+
         this.DeclaracaoPrestacaoServico = declaracao_prestacao_servico;
     }    
 }

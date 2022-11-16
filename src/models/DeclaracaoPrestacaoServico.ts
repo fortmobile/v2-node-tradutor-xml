@@ -21,8 +21,7 @@ class DeclaracaoPrestacaoServico{
             Prestador,
             Tomador,
             RegimeEspecialTributacao,
-            OptanteSimplesNacional: 0,
-            IncentivoFiscal: 0
+            OptanteSimplesNacional: 0
         }
 
         if(Rps){
