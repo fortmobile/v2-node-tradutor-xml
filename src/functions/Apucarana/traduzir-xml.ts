@@ -1,8 +1,9 @@
 import fs from 'fs'
-import { Prestador } from '../../models/PrestadorTomador';
+import { Prestador, Tomador } from '../../models/PrestadorTomador';
 
 import { parseXml } from "../Gerais/parse-xml";
 import { getPrestador } from './get/get-prestador';
+import { getTomador } from './get/get-tomador';
 import { getValoresNfse } from "./get/get-valores-nfse";
 import { mudarDataTypes } from "./mudar-dataTypes";
 
@@ -16,6 +17,9 @@ async function traduzirXmlApucarana(xml_file_path: string) {
         var valores_nfse = await getValoresNfse(parsed_xml);
 
         var prestador = await getPrestador(parsed_xml) as Prestador;
+        var tomador = await getTomador(parsed_xml)as Tomador;
+
+        console.log(tomador)
 
 
         fs.unlinkSync(new_xml);
