@@ -16,7 +16,7 @@ import { mudarDataTypes } from "./mudar-dataTypes";
 import { getCancelada } from "./get/get-cancelada";
 import { Xml_Nfse } from "../../models/Xml-Nfse";
 
-async function traduzirXMLCambe(xml_file_path: string, xml_file_name: string, folder_name: string){
+async function traduzirXmlCambe(xml_file_path: string, xml_file_name: string, folder_name: string){
     try {
         var new_xml = await mudarDataTypes(xml_file_path);
 
@@ -63,4 +63,4 @@ async function traduzirXMLCambe(xml_file_path: string, xml_file_name: string, fo
     }
 }
 
-export { traduzirXMLCambe }
+export { traduzirXmlCambe }
