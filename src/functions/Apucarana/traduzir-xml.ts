@@ -22,6 +22,7 @@ async function traduzirXmlApucarana(xml_file_path: string) {
         
         
         var servico = await getServico(parsed_xml);
+        console.log(servico);
 
 
         fs.unlinkSync(new_xml);

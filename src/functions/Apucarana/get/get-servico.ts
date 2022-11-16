@@ -22,9 +22,37 @@ async function getServico(json_object: object){
 
     var valores_servico = new ValoresServico(valor_servico, valor_deducoes, valor_pis, valor_cofins, valor_inss, valor_ir, valor_csll, outras_retencoes, valor_iss, aliquota, desc_inc, desc_cond)
 
-    console.log(valores_servico)
-    return(valores_servico)
+    if (valor_iss != 0){
+        var iss_retido = true;
+    }
+    else {
+        var iss_retido = false;
+    }
 
+    var item_lista_servico = (base_path['itens' as jsonKeys2]['lista' as jsonKeys2]['codigo_item_lista_servico' as jsonKeys2] as string).toString();
+    
+    var discriminacao = base_path['itens' as jsonKeys2]['lista' as jsonKeys2]['descritivo' as jsonKeys2] as string;
+
+    var cod_municipio = base_path['itens' as jsonKeys2]['lista' as jsonKeys2]['codigo_local_prestacao_servico' as jsonKeys2] as number;
+
+    if (base_path['tomador' as jsonKeys2]['tipo' as jsonKeys2] as string == 'E'){
+        var exigibilidade_iss = 4;
+    }
+    else{
+        var exigibilidade_iss = 1;
+    }
+
+
+    if(base_path['itens' as jsonKeys2]['lista' as jsonKeys2]['tributa_municipio_prestador' as jsonKeys2] as string == 'S' || base_path['itens' as jsonKeys2]['lista' as jsonKeys2]['tributa_municipio_prestador' as jsonKeys2] as number == 1){
+        var municipio_incidencia = base_path['prestador' as jsonKeys2]['cidade' as jsonKeys2] as number;
+    }
+    else {
+        var municipio_incidencia = cod_municipio;
+    }
+
+    var servico = new Servico(valores_servico, iss_retido, item_lista_servico, discriminacao, cod_municipio, exigibilidade_iss, municipio_incidencia)
+
+    return(servico) as Servico;
 
 
 }
