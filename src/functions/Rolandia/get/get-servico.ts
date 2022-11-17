@@ -35,13 +35,11 @@ async function getServico(json_object: object){
             var iss_retido2 = true;
         }
         
-        var item_lista_servico = (base_path['CodigoTributacaoMunicipio' as jsonKeys2] as string).toString();
+        var item_lista_servico = (base_path['ItemListaServico' as jsonKeys2] as string).replace('.', '');
 
         var discriminacao = base_path['Discriminacao' as jsonKeys2] as string;
 
         var cod_municipio = base_path['CodigoMunicipio' as jsonKeys2] as number;
-
-
 
         var municipio_incidencia = undefined;
 

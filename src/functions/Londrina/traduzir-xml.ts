@@ -39,7 +39,6 @@ async function traduzirXmlLondrina(xml_file_path: string, xml_file_name: string,
 
         var infnfse = await getInfNfse(parsed_xml, valores_nfse, prestador, orgao_gerador, declaracao_prestacao);
 
-
         var cancelada = await statusNfse(parsed_xml) as boolean;
         if (cancelada == true){
             var dados_cancelamento = await getCancelada(parsed_xml)
