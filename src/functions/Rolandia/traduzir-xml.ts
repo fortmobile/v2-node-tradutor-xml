@@ -1,8 +1,10 @@
 import fs from 'fs'
 import { Prestador, Tomador } from '../../models/PrestadorTomador';
+import { Servico } from '../../models/Servico';
 
 import { parseXml } from "../Gerais/parse-xml";
 import { getPrestador } from './get/get-prestador';
+import { getServico } from './get/get-servico';
 import { getTomador } from './get/get-tomador';
 import { getValoresNfse } from "./get/get-valores-nfse";
 import { mudarDataTypes } from "./mudar-dataTypes"
@@ -18,8 +20,9 @@ async function traduzirXmlRolandia(xml_file_path: string){
         var valores_nfse = await getValoresNfse(parsed_xml);
 
         var prestador = await getPrestador(parsed_xml) as Prestador;
-        var tomador = await getTomador(parsed_xml) as Tomador;       
-        console.log(tomador) 
+        var tomador = await getTomador(parsed_xml) as Tomador;  
+        
+        var servico = await getServico(parsed_xml) as Servico;
 
         fs.unlinkSync(new_xml);
     }
