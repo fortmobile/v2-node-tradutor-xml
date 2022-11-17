@@ -23,7 +23,7 @@ async function postXML(new_xml_folder, zip_path){
 
         var config = {
             method: 'post',
-            url: 'http://localhost:3200/traduzir-xml/londrina',
+            url: 'http://localhost:3200/traduzir-xml/santo-antonio-da-platina',
             data : data
         };
 
@@ -43,7 +43,7 @@ async function getXML(new_xml_folder){
     try {
         var config = {
             method: 'get',
-            url: `http://localhost:3200/xml-files/londrina?xml_path=${new_xml_folder}`,
+            url: `http://localhost:3200/xml-files/santo-antonio-da-platina?xml_path=${new_xml_folder}`,
             responseType: "arraybuffer"
         }
 
@@ -72,4 +72,4 @@ async function request(zip_path){
     }
 }
 
-request('./testes/Londrina/iss/iss.zip')
+request('./testes/SantoAntonio/teste.zip')

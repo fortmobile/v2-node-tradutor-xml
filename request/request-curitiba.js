@@ -72,4 +72,4 @@ async function request(zip_path){
     }
 }
 
-request('./curitiba.zip')
+request('./testes/Curitiba/exportacao/exterior.zip')
