@@ -37,8 +37,14 @@ async function getTomador(json_object: object){
         var complemento = base_path['Endereco' as jsonKeys2]['Complemento' as jsonKeys2] as string;
 
         var bairro = base_path['Endereco' as jsonKeys2]['Bairro' as jsonKeys2] as string;
-    
-        var cod_municipio = base_path['Endereco' as jsonKeys2]['CodigoMunicipio' as jsonKeys2] as number;
+        
+        if (json_object['CompNfse' as jsonKeys]['Nfse' as jsonKeys]['InfNfse' as jsonKeys]['NaturezaOperacao' as jsonKeys] as number == 3){
+                cod_municipio = 9999999
+        }
+        else {
+            var cod_municipio = base_path['Endereco' as jsonKeys2]['CodigoMunicipio' as jsonKeys2] as number;
+        }
+        
         var uf =  base_path['Endereco' as jsonKeys2]['Uf' as jsonKeys2];
 
 

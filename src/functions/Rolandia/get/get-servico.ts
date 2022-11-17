@@ -35,21 +35,45 @@ async function getServico(json_object: object){
             var iss_retido2 = true;
         }
         
-        var item_lista_servico = (base_path['ItemListaServico' as jsonKeys2] as string).replace('.', '');
+        var item_lista_servico = ((base_path['ItemListaServico' as jsonKeys2] as string).toString());
+        if (item_lista_servico.includes('.')){
+            item_lista_servico = item_lista_servico.replace('.', '')
+        }
 
         var discriminacao = base_path['Discriminacao' as jsonKeys2] as string;
 
         var cod_municipio = base_path['CodigoMunicipio' as jsonKeys2] as number;
 
+        var natureza_operacao = json_object['CompNfse' as jsonKeys]['Nfse' as jsonKeys]['InfNfse' as jsonKeys]['NaturezaOperacao' as jsonKeys] as number;
+        if (natureza_operacao == 1){
+            var exigibilidade_iss = 1
+        }
+        else if (natureza_operacao == 2){
+            var exigibilidade_iss = 2
+        }
+        else if (natureza_operacao == 3){
+            var exigibilidade_iss = 4
+        }
+        else if (natureza_operacao == 4){
+            var exigibilidade_iss = 6
+        }
+        else if (natureza_operacao == 5){
+            var exigibilidade_iss = 7
+        }
+        else {
+            var exigibilidade_iss = 0
+        }
+
+
         var municipio_incidencia = undefined;
 
-        var servico = new Servico(valores_servico, iss_retido2, item_lista_servico, discriminacao, cod_municipio, undefined, municipio_incidencia)
+        var servico = new Servico(valores_servico, iss_retido2, item_lista_servico, discriminacao, cod_municipio, exigibilidade_iss, municipio_incidencia)
 
         return(servico) as Servico;
 
         
     } catch (error) {
-        return error;
+        console.log(error);
     }
 }
 

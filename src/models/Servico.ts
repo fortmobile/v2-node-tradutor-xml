@@ -14,7 +14,7 @@ class Servico{
     MunicipioIncidencia?: number;
 
     constructor(valores: ValoresServico, iss_retido: boolean, item_lista_servico: string, discriminacao: string, cod_municipio: number,
-    exigibilidade_iss: number | undefined, municipio_incidencia: number | undefined){
+    exigibilidade_iss: number, municipio_incidencia: number | undefined){
         this.Valores = valores;
         
         if (iss_retido == true){
@@ -69,7 +69,7 @@ class Servico{
         this.Discriminacao = discriminacao;
         this.CodigoMunicipio = cod_municipio;
         
-        if (exigibilidade_iss != 0 && exigibilidade_iss != undefined){
+        if (exigibilidade_iss != 0){
             this.ExigibilidadeISS = exigibilidade_iss;
         }
         
