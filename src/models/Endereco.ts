@@ -16,7 +16,7 @@ class Endereco{
             this.Numero = numero;
         }
         
-        if (complemento){
+        if (complemento || complemento !== undefined){
             this.Complemento = complemento;
         }
         
