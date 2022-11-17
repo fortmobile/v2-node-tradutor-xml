@@ -3,6 +3,7 @@ import { Prestador, Tomador } from '../../models/PrestadorTomador';
 import { Servico } from '../../models/Servico';
 
 import { parseXml } from "../Gerais/parse-xml";
+import { getDeclaracao } from './get/get-declaracao';
 import { getPrestador } from './get/get-prestador';
 import { getServico } from './get/get-servico';
 import { getTomador } from './get/get-tomador';
@@ -23,6 +24,9 @@ async function traduzirXmlRolandia(xml_file_path: string){
         var tomador = await getTomador(parsed_xml) as Tomador;  
         
         var servico = await getServico(parsed_xml) as Servico;
+
+        var declaracao_prestacao = await getDeclaracao(parsed_xml, servico, prestador, tomador);
+        console.log(declaracao_prestacao)
 
         fs.unlinkSync(new_xml);
     }

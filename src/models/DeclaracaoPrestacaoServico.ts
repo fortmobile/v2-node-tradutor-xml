@@ -9,18 +9,17 @@ class DeclaracaoPrestacaoServico{
         Servico: Servico;
         Prestador: Prestador;
         Tomador: Tomador;
-        RegimeEspecialTributacao: number;
+        RegimeEspecialTributacao?: number;
         OptanteSimplesNacional: number; 
         IncentivoFiscal?: number
     }
 
-    constructor(Competencia: string, Servico: Servico, Prestador: Prestador, Tomador: Tomador, RegimeEspecialTributacao: number, optante_simples_nacional: boolean, incentivo_fiscal: boolean | undefined, Rps?: Rps){
+    constructor(Competencia: string, Servico: Servico, Prestador: Prestador, Tomador: Tomador, RegimeEspecialTributacao: number | undefined, optante_simples_nacional: boolean, incentivo_fiscal: boolean | undefined, Rps?: Rps){
         this.InfDeclaracaoPrestacaoServico = {
             Competencia,
             Servico,
             Prestador,
             Tomador,
-            RegimeEspecialTributacao,
             OptanteSimplesNacional: 0
         }
 
@@ -32,7 +31,10 @@ class DeclaracaoPrestacaoServico{
         this.InfDeclaracaoPrestacaoServico.Servico = Servico;
         this.InfDeclaracaoPrestacaoServico.Prestador = Prestador;
         this.InfDeclaracaoPrestacaoServico.Tomador = Tomador;
-        this.InfDeclaracaoPrestacaoServico.RegimeEspecialTributacao = RegimeEspecialTributacao;
+        
+        if (RegimeEspecialTributacao !== undefined){
+            this.InfDeclaracaoPrestacaoServico.RegimeEspecialTributacao = RegimeEspecialTributacao;
+        }
 
         if (optante_simples_nacional == true){
             this.InfDeclaracaoPrestacaoServico.OptanteSimplesNacional = 1;
