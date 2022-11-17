@@ -35,11 +35,11 @@ class Tomador{
     NomeFantasia?: string
     Contato?: object;
 
-    constructor(IdentificacaoTomador: IdentificacaoPrestadorTomador, razao_social: string, endereco: Endereco, nome_fantasia: string, contato?: Contato ){
+    constructor(IdentificacaoTomador: IdentificacaoPrestadorTomador, razao_social: string, endereco: Endereco, nome_fantasia: string | undefined, contato?: Contato ){
         this.IdentificacaoTomador = IdentificacaoTomador;
         this.RazaoSocial = razao_social;
 
-        if (nome_fantasia !== ''){
+        if (nome_fantasia !== '' && nome_fantasia !== undefined){
             this.NomeFantasia = nome_fantasia;
         }
         

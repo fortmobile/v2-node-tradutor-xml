@@ -2,12 +2,12 @@ class Contato{
     Email?: string;
     Telefone?: string;
 
-    constructor(email?: string, telefone?: string){
-        if (telefone){
+    constructor(email?: string | undefined, telefone?: string | undefined){
+        if (telefone || telefone !== undefined){
             this.Telefone = telefone;
         }
         
-        if (email){
+        if (email || telefone !== undefined){
             this.Email = email;
         }
     }

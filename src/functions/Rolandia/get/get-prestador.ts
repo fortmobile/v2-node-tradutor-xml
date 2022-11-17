@@ -24,9 +24,7 @@ async function getPrestador(json_object: object){
         var endereco = base_path['Endereco' as jsonKeys2]['Endereco' as jsonKeys2] as string;
         var numero =  base_path['Endereco' as jsonKeys2]['Numero' as jsonKeys2] as string;       
         
-        
         var complemento = base_path['Endereco' as jsonKeys2]['Complemento' as jsonKeys2] as string;
-
 
         var bairro = base_path['Endereco' as jsonKeys2]['Bairro' as jsonKeys2] as string;
     
