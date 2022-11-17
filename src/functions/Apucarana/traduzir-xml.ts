@@ -60,7 +60,9 @@ async function traduzirXmlApucarana(xml_file_path: string, xml_file_name: string
         return({message: 'xml convertido com sucesso'});
 
     } catch(error){
+
         return({message: 'erro ao converter xml'})
+    
     }
 }
 
