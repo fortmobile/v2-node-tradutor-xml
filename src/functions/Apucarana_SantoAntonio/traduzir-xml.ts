@@ -16,7 +16,7 @@ import { getValoresNfse } from "./get/get-valores-nfse";
 import { mudarDataTypes } from "./mudar-dataTypes";
 
 
-async function traduzirXmlApucarana(xml_file_path: string, xml_file_name: string, folder_name: string) {
+async function traduzirXmlApucarana_SantoAntonio(xml_file_path: string, xml_file_name: string, folder_name: string) {
     try {
         var new_xml = await mudarDataTypes(xml_file_path);
 
@@ -66,4 +66,4 @@ async function traduzirXmlApucarana(xml_file_path: string, xml_file_name: string
     }
 }
 
-export { traduzirXmlApucarana }
+export { traduzirXmlApucarana_SantoAntonio }
