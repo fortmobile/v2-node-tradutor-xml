@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<ArrayOfTcCompNfse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <tcCompNfse>
+    <Nfse>
+      <InfNfse>
+        <Numero>4</Numero>
+        <CodigoVerificacao>KGCSF806</CodigoVerificacao>
+        <DataEmissao>2022-11-08T14:52:12.027</DataEmissao>
+        <DataEmissaoRps>0001-01-01T00:00:00</DataEmissaoRps>
+        <NaturezaOperacao>2</NaturezaOperacao>
+        <RegimeEspecialTributacao>0</RegimeEspecialTributacao>
+        <OptanteSimplesNacional>1</OptanteSimplesNacional>
+        <IncentivadorCultural>2</IncentivadorCultural>
+        <Competencia>0001-01-01T00:00:00</Competencia>
+        <NfseSubstituida>0</NfseSubstituida>
+        <Servico>
+          <Valores>
+            <ValorServicos>45209.39</ValorServicos>
+            <ValorDeducoes>0.00</ValorDeducoes>
+            <ValorPis>0.00</ValorPis>
+            <ValorCofins>0.00</ValorCofins>
+            <ValorInss>0.00</ValorInss>
+            <ValorIr>0.00</ValorIr>
+            <ValorCsll>0.00</ValorCsll>
+            <IssRetido>2</IssRetido>
+            <ValorIss>0.00</ValorIss>
+            <ValorIssRetido>0.00</ValorIssRetido>
+            <OutrasRetencoes>0.00</OutrasRetencoes>
+            <BaseCalculo>45209.39</BaseCalculo>
+            <Aliquota>0.00</Aliquota>
+            <ValorLiquidoNfse>45209.39</ValorLiquidoNfse>
+            <DescontoIncondicionado>0.00</DescontoIncondicionado>
+            <DescontoCondicionado>0.00</DescontoCondicionado>
+          </Valores>
+          <ItemListaServico>0102</ItemListaServico>
+          <CodigoCnae>0</CodigoCnae>
+          <Discriminacao>Valor referente as horas prestadas de serviço em outubro.</Discriminacao>
+          <CodigoMunicipio>0</CodigoMunicipio>
+        </Servico>
+        <ValorCredito>0</ValorCredito>
+        <PrestadorServico>
+          <IdentificacaoPrestador>
+            <Cnpj>47525267000166</Cnpj>
+            <InscricaoMunicipal>10402401</InscricaoMunicipal>
+          </IdentificacaoPrestador>
+          <NomeFantasia>KAIO MARCELLUS DE SOUZA  LTDA</NomeFantasia>
+          <Endereco>
+            <Endereco>BOM JESUS</Endereco>
+            <Numero>212</Numero>
+            <Bairro>JUVEVÊ</Bairro>
+            <CodigoMunicipio>4106902</CodigoMunicipio>
+            <Uf>PR</Uf>
+            <Cep>80035010</Cep>
+          </Endereco>
+        </PrestadorServico>
+        <TomadorServico>
+          <IdentificacaoTomador>
+            <CpfCnpj />
+          </IdentificacaoTomador>
+          <RazaoSocial>Quantum Pigeon Technologies Inc</RazaoSocial>
+          <Endereco>
+            <Endereco>Suite 300, 1090 Homer Street, Vancouver, British Columbia, Canada V6B 2W9</Endereco>
+            <Complemento />
+            <Bairro />
+            <CodigoMunicipio>0</CodigoMunicipio>
+            <Cep>0</Cep>
+          </Endereco>
+          <Contato>
+            <Email />
+          </Contato>
+        </TomadorServico>
+      </InfNfse>
+    </Nfse>
+  </tcCompNfse>
+</ArrayOfTcCompNfse>

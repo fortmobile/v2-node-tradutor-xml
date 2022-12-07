@@ -3,7 +3,7 @@ import { ValoresNfse } from "../../../models/Valores";
 async function getValoresNfse(json_object: object){
     try{
         type jsonKeys = keyof typeof json_object;
-        var base_path = json_object['Nfse' as jsonKeys]['InfNfse' as jsonKeys]['Servico' as jsonKeys];
+        var base_path = json_object['Nfse' as jsonKeys]['InfNfse' as jsonKeys]['Servico' as jsonKeys]['Valores' as jsonKeys];
         type jsonKeys2 = keyof typeof base_path;
 
         var base_calculo = base_path['BaseCalculo' as jsonKeys2] as number;

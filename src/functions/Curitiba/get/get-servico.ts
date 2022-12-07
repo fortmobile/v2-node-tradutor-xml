@@ -23,7 +23,8 @@ async function getServico(json_object: object){
         var valores_servico = new ValoresServico(valor_servico, valor_deducoes, valor_pis, valor_cofins, valor_inss, valor_ir, valor_csll, outras_retencoes, valor_iss, aliquota, desc_inc, desc_cond)
 
         var iss_retido1 = base_path['Valores' as jsonKeys2]['IssRetido'] as number;
-        if (iss_retido1 = 1){
+
+        if (iss_retido1 == 1){
             var iss_retido2 = true;
         }
         else {
